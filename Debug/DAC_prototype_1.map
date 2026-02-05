@@ -380,7 +380,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./Core/Src/stm32f4xx_it.o
  .debug_macro   0x00000000      0x3be ./Core/Src/stm32f4xx_it.o
  .debug_macro   0x00000000       0x6b ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x00000000      0x110 ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x00000000      0x112 ./Core/Src/stm32f4xx_it.o
  .debug_macro   0x00000000       0x3b ./Core/Src/stm32f4xx_it.o
  .debug_macro   0x00000000      0x211 ./Core/Src/stm32f4xx_it.o
  .debug_macro   0x00000000       0x46 ./Core/Src/stm32f4xx_it.o
@@ -760,7 +760,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./Core/Src/usb_descriptors.o
  .debug_macro   0x00000000      0x3be ./Core/Src/usb_descriptors.o
  .debug_macro   0x00000000       0x6b ./Core/Src/usb_descriptors.o
- .debug_macro   0x00000000      0x110 ./Core/Src/usb_descriptors.o
+ .debug_macro   0x00000000      0x112 ./Core/Src/usb_descriptors.o
  .debug_macro   0x00000000       0x3b ./Core/Src/usb_descriptors.o
  .debug_macro   0x00000000      0x211 ./Core/Src/usb_descriptors.o
  .debug_macro   0x00000000       0x46 ./Core/Src/usb_descriptors.o
@@ -3035,7 +3035,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/audio/audio_device.o
  .debug_macro   0x00000000      0x3be ./class/audio/audio_device.o
  .debug_macro   0x00000000       0x6b ./class/audio/audio_device.o
- .debug_macro   0x00000000      0x110 ./class/audio/audio_device.o
+ .debug_macro   0x00000000      0x112 ./class/audio/audio_device.o
  .debug_macro   0x00000000       0x3b ./class/audio/audio_device.o
  .debug_macro   0x00000000      0x211 ./class/audio/audio_device.o
  .debug_macro   0x00000000       0xa0 ./class/audio/audio_device.o
@@ -3092,11 +3092,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/bth/bth_device.o
  .debug_macro   0x00000000      0x3be ./class/bth/bth_device.o
  .debug_macro   0x00000000       0x6b ./class/bth/bth_device.o
- .debug_macro   0x00000000      0x110 ./class/bth/bth_device.o
+ .debug_macro   0x00000000      0x112 ./class/bth/bth_device.o
  .debug_macro   0x00000000       0x3b ./class/bth/bth_device.o
  .debug_macro   0x00000000      0x211 ./class/bth/bth_device.o
  .debug_line    0x00000000      0x121 ./class/bth/bth_device.o
- .debug_str     0x00000000     0x8d27 ./class/bth/bth_device.o
+ .debug_str     0x00000000     0x8b6d ./class/bth/bth_device.o
  .comment       0x00000000       0x44 ./class/bth/bth_device.o
  .ARM.attributes
                 0x00000000       0x34 ./class/bth/bth_device.o
@@ -3119,11 +3119,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/cdc/cdc_device.o
  .debug_macro   0x00000000      0x3be ./class/cdc/cdc_device.o
  .debug_macro   0x00000000       0x6b ./class/cdc/cdc_device.o
- .debug_macro   0x00000000      0x110 ./class/cdc/cdc_device.o
+ .debug_macro   0x00000000      0x112 ./class/cdc/cdc_device.o
  .debug_macro   0x00000000       0x3b ./class/cdc/cdc_device.o
  .debug_macro   0x00000000      0x211 ./class/cdc/cdc_device.o
  .debug_line    0x00000000      0x121 ./class/cdc/cdc_device.o
- .debug_str     0x00000000     0x8d27 ./class/cdc/cdc_device.o
+ .debug_str     0x00000000     0x8b6d ./class/cdc/cdc_device.o
  .comment       0x00000000       0x44 ./class/cdc/cdc_device.o
  .ARM.attributes
                 0x00000000       0x34 ./class/cdc/cdc_device.o
@@ -3152,7 +3152,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/cdc/cdc_host.o
  .debug_macro   0x00000000      0x3be ./class/cdc/cdc_host.o
  .debug_macro   0x00000000       0x6b ./class/cdc/cdc_host.o
- .debug_macro   0x00000000      0x110 ./class/cdc/cdc_host.o
+ .debug_macro   0x00000000      0x112 ./class/cdc/cdc_host.o
  .debug_macro   0x00000000       0x3b ./class/cdc/cdc_host.o
  .debug_macro   0x00000000      0x211 ./class/cdc/cdc_host.o
  .debug_macro   0x00000000       0x22 ./class/cdc/cdc_host.o
@@ -3162,7 +3162,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./class/cdc/cdc_host.o
  .debug_macro   0x00000000      0x1df ./class/cdc/cdc_host.o
  .debug_line    0x00000000      0x4de ./class/cdc/cdc_host.o
- .debug_str     0x00000000     0x9c2f ./class/cdc/cdc_host.o
+ .debug_str     0x00000000     0x9a75 ./class/cdc/cdc_host.o
  .comment       0x00000000       0x44 ./class/cdc/cdc_host.o
  .ARM.attributes
                 0x00000000       0x34 ./class/cdc/cdc_host.o
@@ -3185,11 +3185,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/dfu/dfu_device.o
  .debug_macro   0x00000000      0x3be ./class/dfu/dfu_device.o
  .debug_macro   0x00000000       0x6b ./class/dfu/dfu_device.o
- .debug_macro   0x00000000      0x110 ./class/dfu/dfu_device.o
+ .debug_macro   0x00000000      0x112 ./class/dfu/dfu_device.o
  .debug_macro   0x00000000       0x3b ./class/dfu/dfu_device.o
  .debug_macro   0x00000000      0x211 ./class/dfu/dfu_device.o
  .debug_line    0x00000000      0x121 ./class/dfu/dfu_device.o
- .debug_str     0x00000000     0x8d27 ./class/dfu/dfu_device.o
+ .debug_str     0x00000000     0x8b6d ./class/dfu/dfu_device.o
  .comment       0x00000000       0x44 ./class/dfu/dfu_device.o
  .ARM.attributes
                 0x00000000       0x34 ./class/dfu/dfu_device.o
@@ -3212,11 +3212,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/dfu/dfu_rt_device.o
  .debug_macro   0x00000000      0x3be ./class/dfu/dfu_rt_device.o
  .debug_macro   0x00000000       0x6b ./class/dfu/dfu_rt_device.o
- .debug_macro   0x00000000      0x110 ./class/dfu/dfu_rt_device.o
+ .debug_macro   0x00000000      0x112 ./class/dfu/dfu_rt_device.o
  .debug_macro   0x00000000       0x3b ./class/dfu/dfu_rt_device.o
  .debug_macro   0x00000000      0x211 ./class/dfu/dfu_rt_device.o
  .debug_line    0x00000000      0x124 ./class/dfu/dfu_rt_device.o
- .debug_str     0x00000000     0x8d2a ./class/dfu/dfu_rt_device.o
+ .debug_str     0x00000000     0x8b70 ./class/dfu/dfu_rt_device.o
  .comment       0x00000000       0x44 ./class/dfu/dfu_rt_device.o
  .ARM.attributes
                 0x00000000       0x34 ./class/dfu/dfu_rt_device.o
@@ -3239,11 +3239,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/hid/hid_device.o
  .debug_macro   0x00000000      0x3be ./class/hid/hid_device.o
  .debug_macro   0x00000000       0x6b ./class/hid/hid_device.o
- .debug_macro   0x00000000      0x110 ./class/hid/hid_device.o
+ .debug_macro   0x00000000      0x112 ./class/hid/hid_device.o
  .debug_macro   0x00000000       0x3b ./class/hid/hid_device.o
  .debug_macro   0x00000000      0x211 ./class/hid/hid_device.o
  .debug_line    0x00000000      0x121 ./class/hid/hid_device.o
- .debug_str     0x00000000     0x8d27 ./class/hid/hid_device.o
+ .debug_str     0x00000000     0x8b6d ./class/hid/hid_device.o
  .comment       0x00000000       0x44 ./class/hid/hid_device.o
  .ARM.attributes
                 0x00000000       0x34 ./class/hid/hid_device.o
@@ -3266,11 +3266,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/hid/hid_host.o
  .debug_macro   0x00000000      0x3be ./class/hid/hid_host.o
  .debug_macro   0x00000000       0x6b ./class/hid/hid_host.o
- .debug_macro   0x00000000      0x110 ./class/hid/hid_host.o
+ .debug_macro   0x00000000      0x112 ./class/hid/hid_host.o
  .debug_macro   0x00000000       0x3b ./class/hid/hid_host.o
  .debug_macro   0x00000000      0x211 ./class/hid/hid_host.o
  .debug_line    0x00000000      0x11f ./class/hid/hid_host.o
- .debug_str     0x00000000     0x8d25 ./class/hid/hid_host.o
+ .debug_str     0x00000000     0x8b6b ./class/hid/hid_host.o
  .comment       0x00000000       0x44 ./class/hid/hid_host.o
  .ARM.attributes
                 0x00000000       0x34 ./class/hid/hid_host.o
@@ -3293,11 +3293,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/midi/midi_device.o
  .debug_macro   0x00000000      0x3be ./class/midi/midi_device.o
  .debug_macro   0x00000000       0x6b ./class/midi/midi_device.o
- .debug_macro   0x00000000      0x110 ./class/midi/midi_device.o
+ .debug_macro   0x00000000      0x112 ./class/midi/midi_device.o
  .debug_macro   0x00000000       0x3b ./class/midi/midi_device.o
  .debug_macro   0x00000000      0x211 ./class/midi/midi_device.o
  .debug_line    0x00000000      0x123 ./class/midi/midi_device.o
- .debug_str     0x00000000     0x8d29 ./class/midi/midi_device.o
+ .debug_str     0x00000000     0x8b6f ./class/midi/midi_device.o
  .comment       0x00000000       0x44 ./class/midi/midi_device.o
  .ARM.attributes
                 0x00000000       0x34 ./class/midi/midi_device.o
@@ -3320,11 +3320,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/midi/midi_host.o
  .debug_macro   0x00000000      0x3be ./class/midi/midi_host.o
  .debug_macro   0x00000000       0x6b ./class/midi/midi_host.o
- .debug_macro   0x00000000      0x110 ./class/midi/midi_host.o
+ .debug_macro   0x00000000      0x112 ./class/midi/midi_host.o
  .debug_macro   0x00000000       0x3b ./class/midi/midi_host.o
  .debug_macro   0x00000000      0x211 ./class/midi/midi_host.o
  .debug_line    0x00000000      0x121 ./class/midi/midi_host.o
- .debug_str     0x00000000     0x8d27 ./class/midi/midi_host.o
+ .debug_str     0x00000000     0x8b6d ./class/midi/midi_host.o
  .comment       0x00000000       0x44 ./class/midi/midi_host.o
  .ARM.attributes
                 0x00000000       0x34 ./class/midi/midi_host.o
@@ -3347,11 +3347,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/msc/msc_device.o
  .debug_macro   0x00000000      0x3be ./class/msc/msc_device.o
  .debug_macro   0x00000000       0x6b ./class/msc/msc_device.o
- .debug_macro   0x00000000      0x110 ./class/msc/msc_device.o
+ .debug_macro   0x00000000      0x112 ./class/msc/msc_device.o
  .debug_macro   0x00000000       0x3b ./class/msc/msc_device.o
  .debug_macro   0x00000000      0x211 ./class/msc/msc_device.o
  .debug_line    0x00000000      0x121 ./class/msc/msc_device.o
- .debug_str     0x00000000     0x8d27 ./class/msc/msc_device.o
+ .debug_str     0x00000000     0x8b6d ./class/msc/msc_device.o
  .comment       0x00000000       0x44 ./class/msc/msc_device.o
  .ARM.attributes
                 0x00000000       0x34 ./class/msc/msc_device.o
@@ -3374,11 +3374,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/msc/msc_host.o
  .debug_macro   0x00000000      0x3be ./class/msc/msc_host.o
  .debug_macro   0x00000000       0x6b ./class/msc/msc_host.o
- .debug_macro   0x00000000      0x110 ./class/msc/msc_host.o
+ .debug_macro   0x00000000      0x112 ./class/msc/msc_host.o
  .debug_macro   0x00000000       0x3b ./class/msc/msc_host.o
  .debug_macro   0x00000000      0x211 ./class/msc/msc_host.o
  .debug_line    0x00000000      0x11f ./class/msc/msc_host.o
- .debug_str     0x00000000     0x8d25 ./class/msc/msc_host.o
+ .debug_str     0x00000000     0x8b6b ./class/msc/msc_host.o
  .comment       0x00000000       0x44 ./class/msc/msc_host.o
  .ARM.attributes
                 0x00000000       0x34 ./class/msc/msc_host.o
@@ -3401,11 +3401,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/mtp/mtp_device.o
  .debug_macro   0x00000000      0x3be ./class/mtp/mtp_device.o
  .debug_macro   0x00000000       0x6b ./class/mtp/mtp_device.o
- .debug_macro   0x00000000      0x110 ./class/mtp/mtp_device.o
+ .debug_macro   0x00000000      0x112 ./class/mtp/mtp_device.o
  .debug_macro   0x00000000       0x3b ./class/mtp/mtp_device.o
  .debug_macro   0x00000000      0x211 ./class/mtp/mtp_device.o
  .debug_line    0x00000000      0x121 ./class/mtp/mtp_device.o
- .debug_str     0x00000000     0x8d27 ./class/mtp/mtp_device.o
+ .debug_str     0x00000000     0x8b6d ./class/mtp/mtp_device.o
  .comment       0x00000000       0x44 ./class/mtp/mtp_device.o
  .ARM.attributes
                 0x00000000       0x34 ./class/mtp/mtp_device.o
@@ -3428,11 +3428,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/net/ecm_rndis_device.o
  .debug_macro   0x00000000      0x3be ./class/net/ecm_rndis_device.o
  .debug_macro   0x00000000       0x6b ./class/net/ecm_rndis_device.o
- .debug_macro   0x00000000      0x110 ./class/net/ecm_rndis_device.o
+ .debug_macro   0x00000000      0x112 ./class/net/ecm_rndis_device.o
  .debug_macro   0x00000000       0x3b ./class/net/ecm_rndis_device.o
  .debug_macro   0x00000000      0x211 ./class/net/ecm_rndis_device.o
  .debug_line    0x00000000      0x127 ./class/net/ecm_rndis_device.o
- .debug_str     0x00000000     0x8d2d ./class/net/ecm_rndis_device.o
+ .debug_str     0x00000000     0x8b73 ./class/net/ecm_rndis_device.o
  .comment       0x00000000       0x44 ./class/net/ecm_rndis_device.o
  .ARM.attributes
                 0x00000000       0x34 ./class/net/ecm_rndis_device.o
@@ -3455,11 +3455,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/net/ncm_device.o
  .debug_macro   0x00000000      0x3be ./class/net/ncm_device.o
  .debug_macro   0x00000000       0x6b ./class/net/ncm_device.o
- .debug_macro   0x00000000      0x110 ./class/net/ncm_device.o
+ .debug_macro   0x00000000      0x112 ./class/net/ncm_device.o
  .debug_macro   0x00000000       0x3b ./class/net/ncm_device.o
  .debug_macro   0x00000000      0x211 ./class/net/ncm_device.o
  .debug_line    0x00000000      0x121 ./class/net/ncm_device.o
- .debug_str     0x00000000     0x8d27 ./class/net/ncm_device.o
+ .debug_str     0x00000000     0x8b6d ./class/net/ncm_device.o
  .comment       0x00000000       0x44 ./class/net/ncm_device.o
  .ARM.attributes
                 0x00000000       0x34 ./class/net/ncm_device.o
@@ -3482,11 +3482,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/usbtmc/usbtmc_device.o
  .debug_macro   0x00000000      0x3be ./class/usbtmc/usbtmc_device.o
  .debug_macro   0x00000000       0x6b ./class/usbtmc/usbtmc_device.o
- .debug_macro   0x00000000      0x110 ./class/usbtmc/usbtmc_device.o
+ .debug_macro   0x00000000      0x112 ./class/usbtmc/usbtmc_device.o
  .debug_macro   0x00000000       0x3b ./class/usbtmc/usbtmc_device.o
  .debug_macro   0x00000000      0x211 ./class/usbtmc/usbtmc_device.o
  .debug_line    0x00000000      0x127 ./class/usbtmc/usbtmc_device.o
- .debug_str     0x00000000     0x8d2d ./class/usbtmc/usbtmc_device.o
+ .debug_str     0x00000000     0x8b73 ./class/usbtmc/usbtmc_device.o
  .comment       0x00000000       0x44 ./class/usbtmc/usbtmc_device.o
  .ARM.attributes
                 0x00000000       0x34 ./class/usbtmc/usbtmc_device.o
@@ -3509,11 +3509,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/vendor/vendor_device.o
  .debug_macro   0x00000000      0x3be ./class/vendor/vendor_device.o
  .debug_macro   0x00000000       0x6b ./class/vendor/vendor_device.o
- .debug_macro   0x00000000      0x110 ./class/vendor/vendor_device.o
+ .debug_macro   0x00000000      0x112 ./class/vendor/vendor_device.o
  .debug_macro   0x00000000       0x3b ./class/vendor/vendor_device.o
  .debug_macro   0x00000000      0x211 ./class/vendor/vendor_device.o
  .debug_line    0x00000000      0x127 ./class/vendor/vendor_device.o
- .debug_str     0x00000000     0x8d2d ./class/vendor/vendor_device.o
+ .debug_str     0x00000000     0x8b73 ./class/vendor/vendor_device.o
  .comment       0x00000000       0x44 ./class/vendor/vendor_device.o
  .ARM.attributes
                 0x00000000       0x34 ./class/vendor/vendor_device.o
@@ -3536,11 +3536,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/vendor/vendor_host.o
  .debug_macro   0x00000000      0x3be ./class/vendor/vendor_host.o
  .debug_macro   0x00000000       0x6b ./class/vendor/vendor_host.o
- .debug_macro   0x00000000      0x110 ./class/vendor/vendor_host.o
+ .debug_macro   0x00000000      0x112 ./class/vendor/vendor_host.o
  .debug_macro   0x00000000       0x3b ./class/vendor/vendor_host.o
  .debug_macro   0x00000000      0x211 ./class/vendor/vendor_host.o
  .debug_line    0x00000000      0x125 ./class/vendor/vendor_host.o
- .debug_str     0x00000000     0x8d2b ./class/vendor/vendor_host.o
+ .debug_str     0x00000000     0x8b71 ./class/vendor/vendor_host.o
  .comment       0x00000000       0x44 ./class/vendor/vendor_host.o
  .ARM.attributes
                 0x00000000       0x34 ./class/vendor/vendor_host.o
@@ -3563,11 +3563,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./class/video/video_device.o
  .debug_macro   0x00000000      0x3be ./class/video/video_device.o
  .debug_macro   0x00000000       0x6b ./class/video/video_device.o
- .debug_macro   0x00000000      0x110 ./class/video/video_device.o
+ .debug_macro   0x00000000      0x112 ./class/video/video_device.o
  .debug_macro   0x00000000       0x3b ./class/video/video_device.o
  .debug_macro   0x00000000      0x211 ./class/video/video_device.o
  .debug_line    0x00000000      0x125 ./class/video/video_device.o
- .debug_str     0x00000000     0x8d2b ./class/video/video_device.o
+ .debug_str     0x00000000     0x8b71 ./class/video/video_device.o
  .comment       0x00000000       0x44 ./class/video/video_device.o
  .ARM.attributes
                 0x00000000       0x34 ./class/video/video_device.o
@@ -3670,7 +3670,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./common/tusb_fifo.o
  .debug_macro   0x00000000      0x3be ./common/tusb_fifo.o
  .debug_macro   0x00000000       0x6b ./common/tusb_fifo.o
- .debug_macro   0x00000000      0x110 ./common/tusb_fifo.o
+ .debug_macro   0x00000000      0x112 ./common/tusb_fifo.o
  .debug_macro   0x00000000       0x3b ./common/tusb_fifo.o
  .debug_macro   0x00000000      0x211 ./common/tusb_fifo.o
  .debug_macro   0x00000000       0x46 ./common/tusb_fifo.o
@@ -3784,7 +3784,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./device/usbd.o
  .debug_macro   0x00000000      0x3be ./device/usbd.o
  .debug_macro   0x00000000       0x6b ./device/usbd.o
- .debug_macro   0x00000000      0x110 ./device/usbd.o
+ .debug_macro   0x00000000      0x112 ./device/usbd.o
  .debug_macro   0x00000000       0x3b ./device/usbd.o
  .debug_macro   0x00000000      0x211 ./device/usbd.o
  .debug_macro   0x00000000       0xa0 ./device/usbd.o
@@ -3879,7 +3879,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./device/usbd_control.o
  .debug_macro   0x00000000      0x3be ./device/usbd_control.o
  .debug_macro   0x00000000       0x6b ./device/usbd_control.o
- .debug_macro   0x00000000      0x110 ./device/usbd_control.o
+ .debug_macro   0x00000000      0x112 ./device/usbd_control.o
  .debug_macro   0x00000000       0x3b ./device/usbd_control.o
  .debug_macro   0x00000000      0x211 ./device/usbd_control.o
  .debug_macro   0x00000000       0xa0 ./device/usbd_control.o
@@ -3940,11 +3940,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./host/hub.o
  .debug_macro   0x00000000      0x3be ./host/hub.o
  .debug_macro   0x00000000       0x6b ./host/hub.o
- .debug_macro   0x00000000      0x110 ./host/hub.o
+ .debug_macro   0x00000000      0x112 ./host/hub.o
  .debug_macro   0x00000000       0x3b ./host/hub.o
  .debug_macro   0x00000000      0x211 ./host/hub.o
  .debug_line    0x00000000      0x115 ./host/hub.o
- .debug_str     0x00000000     0x8d1b ./host/hub.o
+ .debug_str     0x00000000     0x8b61 ./host/hub.o
  .comment       0x00000000       0x44 ./host/hub.o
  .ARM.attributes
                 0x00000000       0x34 ./host/hub.o
@@ -3967,11 +3967,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./host/usbh.o
  .debug_macro   0x00000000      0x3be ./host/usbh.o
  .debug_macro   0x00000000       0x6b ./host/usbh.o
- .debug_macro   0x00000000      0x110 ./host/usbh.o
+ .debug_macro   0x00000000      0x112 ./host/usbh.o
  .debug_macro   0x00000000       0x3b ./host/usbh.o
  .debug_macro   0x00000000      0x211 ./host/usbh.o
  .debug_line    0x00000000      0x116 ./host/usbh.o
- .debug_str     0x00000000     0x8d1c ./host/usbh.o
+ .debug_str     0x00000000     0x8b62 ./host/usbh.o
  .comment       0x00000000       0x44 ./host/usbh.o
  .ARM.attributes
                 0x00000000       0x34 ./host/usbh.o
@@ -3994,11 +3994,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/analog/max3421/hcd_max3421.o
  .debug_macro   0x00000000      0x3be ./portable/analog/max3421/hcd_max3421.o
  .debug_macro   0x00000000       0x6b ./portable/analog/max3421/hcd_max3421.o
- .debug_macro   0x00000000      0x110 ./portable/analog/max3421/hcd_max3421.o
+ .debug_macro   0x00000000      0x112 ./portable/analog/max3421/hcd_max3421.o
  .debug_macro   0x00000000       0x3b ./portable/analog/max3421/hcd_max3421.o
  .debug_macro   0x00000000      0x211 ./portable/analog/max3421/hcd_max3421.o
  .debug_line    0x00000000      0x130 ./portable/analog/max3421/hcd_max3421.o
- .debug_str     0x00000000     0x8d36 ./portable/analog/max3421/hcd_max3421.o
+ .debug_str     0x00000000     0x8b7c ./portable/analog/max3421/hcd_max3421.o
  .comment       0x00000000       0x44 ./portable/analog/max3421/hcd_max3421.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/analog/max3421/hcd_max3421.o
@@ -4021,11 +4021,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/bridgetek/ft9xx/dcd_ft9xx.o
  .debug_macro   0x00000000      0x3be ./portable/bridgetek/ft9xx/dcd_ft9xx.o
  .debug_macro   0x00000000       0x6b ./portable/bridgetek/ft9xx/dcd_ft9xx.o
- .debug_macro   0x00000000      0x110 ./portable/bridgetek/ft9xx/dcd_ft9xx.o
+ .debug_macro   0x00000000      0x112 ./portable/bridgetek/ft9xx/dcd_ft9xx.o
  .debug_macro   0x00000000       0x3b ./portable/bridgetek/ft9xx/dcd_ft9xx.o
  .debug_macro   0x00000000      0x211 ./portable/bridgetek/ft9xx/dcd_ft9xx.o
  .debug_line    0x00000000      0x12f ./portable/bridgetek/ft9xx/dcd_ft9xx.o
- .debug_str     0x00000000     0x8d35 ./portable/bridgetek/ft9xx/dcd_ft9xx.o
+ .debug_str     0x00000000     0x8b7b ./portable/bridgetek/ft9xx/dcd_ft9xx.o
  .comment       0x00000000       0x44 ./portable/bridgetek/ft9xx/dcd_ft9xx.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/bridgetek/ft9xx/dcd_ft9xx.o
@@ -4048,11 +4048,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/chipidea/ci_fs/dcd_ci_fs.o
  .debug_macro   0x00000000      0x3be ./portable/chipidea/ci_fs/dcd_ci_fs.o
  .debug_macro   0x00000000       0x6b ./portable/chipidea/ci_fs/dcd_ci_fs.o
- .debug_macro   0x00000000      0x110 ./portable/chipidea/ci_fs/dcd_ci_fs.o
+ .debug_macro   0x00000000      0x112 ./portable/chipidea/ci_fs/dcd_ci_fs.o
  .debug_macro   0x00000000       0x3b ./portable/chipidea/ci_fs/dcd_ci_fs.o
  .debug_macro   0x00000000      0x211 ./portable/chipidea/ci_fs/dcd_ci_fs.o
  .debug_line    0x00000000      0x12e ./portable/chipidea/ci_fs/dcd_ci_fs.o
- .debug_str     0x00000000     0x8d34 ./portable/chipidea/ci_fs/dcd_ci_fs.o
+ .debug_str     0x00000000     0x8b7a ./portable/chipidea/ci_fs/dcd_ci_fs.o
  .comment       0x00000000       0x44 ./portable/chipidea/ci_fs/dcd_ci_fs.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/chipidea/ci_fs/dcd_ci_fs.o
@@ -4075,11 +4075,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/chipidea/ci_hs/dcd_ci_hs.o
  .debug_macro   0x00000000      0x3be ./portable/chipidea/ci_hs/dcd_ci_hs.o
  .debug_macro   0x00000000       0x6b ./portable/chipidea/ci_hs/dcd_ci_hs.o
- .debug_macro   0x00000000      0x110 ./portable/chipidea/ci_hs/dcd_ci_hs.o
+ .debug_macro   0x00000000      0x112 ./portable/chipidea/ci_hs/dcd_ci_hs.o
  .debug_macro   0x00000000       0x3b ./portable/chipidea/ci_hs/dcd_ci_hs.o
  .debug_macro   0x00000000      0x211 ./portable/chipidea/ci_hs/dcd_ci_hs.o
  .debug_line    0x00000000      0x12e ./portable/chipidea/ci_hs/dcd_ci_hs.o
- .debug_str     0x00000000     0x8d34 ./portable/chipidea/ci_hs/dcd_ci_hs.o
+ .debug_str     0x00000000     0x8b7a ./portable/chipidea/ci_hs/dcd_ci_hs.o
  .comment       0x00000000       0x44 ./portable/chipidea/ci_hs/dcd_ci_hs.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/chipidea/ci_hs/dcd_ci_hs.o
@@ -4102,11 +4102,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/chipidea/ci_hs/hcd_ci_hs.o
  .debug_macro   0x00000000      0x3be ./portable/chipidea/ci_hs/hcd_ci_hs.o
  .debug_macro   0x00000000       0x6b ./portable/chipidea/ci_hs/hcd_ci_hs.o
- .debug_macro   0x00000000      0x110 ./portable/chipidea/ci_hs/hcd_ci_hs.o
+ .debug_macro   0x00000000      0x112 ./portable/chipidea/ci_hs/hcd_ci_hs.o
  .debug_macro   0x00000000       0x3b ./portable/chipidea/ci_hs/hcd_ci_hs.o
  .debug_macro   0x00000000      0x211 ./portable/chipidea/ci_hs/hcd_ci_hs.o
  .debug_line    0x00000000      0x12e ./portable/chipidea/ci_hs/hcd_ci_hs.o
- .debug_str     0x00000000     0x8d34 ./portable/chipidea/ci_hs/hcd_ci_hs.o
+ .debug_str     0x00000000     0x8b7a ./portable/chipidea/ci_hs/hcd_ci_hs.o
  .comment       0x00000000       0x44 ./portable/chipidea/ci_hs/hcd_ci_hs.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/chipidea/ci_hs/hcd_ci_hs.o
@@ -4129,11 +4129,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/dialog/da146xx/dcd_da146xx.o
  .debug_macro   0x00000000      0x3be ./portable/dialog/da146xx/dcd_da146xx.o
  .debug_macro   0x00000000       0x6b ./portable/dialog/da146xx/dcd_da146xx.o
- .debug_macro   0x00000000      0x110 ./portable/dialog/da146xx/dcd_da146xx.o
+ .debug_macro   0x00000000      0x112 ./portable/dialog/da146xx/dcd_da146xx.o
  .debug_macro   0x00000000       0x3b ./portable/dialog/da146xx/dcd_da146xx.o
  .debug_macro   0x00000000      0x211 ./portable/dialog/da146xx/dcd_da146xx.o
  .debug_line    0x00000000      0x130 ./portable/dialog/da146xx/dcd_da146xx.o
- .debug_str     0x00000000     0x8d36 ./portable/dialog/da146xx/dcd_da146xx.o
+ .debug_str     0x00000000     0x8b7c ./portable/dialog/da146xx/dcd_da146xx.o
  .comment       0x00000000       0x44 ./portable/dialog/da146xx/dcd_da146xx.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/dialog/da146xx/dcd_da146xx.o
@@ -4156,11 +4156,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/ehci/ehci.o
  .debug_macro   0x00000000      0x3be ./portable/ehci/ehci.o
  .debug_macro   0x00000000       0x6b ./portable/ehci/ehci.o
- .debug_macro   0x00000000      0x110 ./portable/ehci/ehci.o
+ .debug_macro   0x00000000      0x112 ./portable/ehci/ehci.o
  .debug_macro   0x00000000       0x3b ./portable/ehci/ehci.o
  .debug_macro   0x00000000      0x211 ./portable/ehci/ehci.o
  .debug_line    0x00000000      0x11f ./portable/ehci/ehci.o
- .debug_str     0x00000000     0x8d25 ./portable/ehci/ehci.o
+ .debug_str     0x00000000     0x8b6b ./portable/ehci/ehci.o
  .comment       0x00000000       0x44 ./portable/ehci/ehci.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/ehci/ehci.o
@@ -4183,11 +4183,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/mentor/musb/dcd_musb.o
  .debug_macro   0x00000000      0x3be ./portable/mentor/musb/dcd_musb.o
  .debug_macro   0x00000000       0x6b ./portable/mentor/musb/dcd_musb.o
- .debug_macro   0x00000000      0x110 ./portable/mentor/musb/dcd_musb.o
+ .debug_macro   0x00000000      0x112 ./portable/mentor/musb/dcd_musb.o
  .debug_macro   0x00000000       0x3b ./portable/mentor/musb/dcd_musb.o
  .debug_macro   0x00000000      0x211 ./portable/mentor/musb/dcd_musb.o
  .debug_line    0x00000000      0x12a ./portable/mentor/musb/dcd_musb.o
- .debug_str     0x00000000     0x8d30 ./portable/mentor/musb/dcd_musb.o
+ .debug_str     0x00000000     0x8b76 ./portable/mentor/musb/dcd_musb.o
  .comment       0x00000000       0x44 ./portable/mentor/musb/dcd_musb.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/mentor/musb/dcd_musb.o
@@ -4210,11 +4210,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/mentor/musb/hcd_musb.o
  .debug_macro   0x00000000      0x3be ./portable/mentor/musb/hcd_musb.o
  .debug_macro   0x00000000       0x6b ./portable/mentor/musb/hcd_musb.o
- .debug_macro   0x00000000      0x110 ./portable/mentor/musb/hcd_musb.o
+ .debug_macro   0x00000000      0x112 ./portable/mentor/musb/hcd_musb.o
  .debug_macro   0x00000000       0x3b ./portable/mentor/musb/hcd_musb.o
  .debug_macro   0x00000000      0x211 ./portable/mentor/musb/hcd_musb.o
  .debug_line    0x00000000      0x12a ./portable/mentor/musb/hcd_musb.o
- .debug_str     0x00000000     0x8d30 ./portable/mentor/musb/hcd_musb.o
+ .debug_str     0x00000000     0x8b76 ./portable/mentor/musb/hcd_musb.o
  .comment       0x00000000       0x44 ./portable/mentor/musb/hcd_musb.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/mentor/musb/hcd_musb.o
@@ -4237,11 +4237,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/microchip/pic/dcd_pic.o
  .debug_macro   0x00000000      0x3be ./portable/microchip/pic/dcd_pic.o
  .debug_macro   0x00000000       0x6b ./portable/microchip/pic/dcd_pic.o
- .debug_macro   0x00000000      0x110 ./portable/microchip/pic/dcd_pic.o
+ .debug_macro   0x00000000      0x112 ./portable/microchip/pic/dcd_pic.o
  .debug_macro   0x00000000       0x3b ./portable/microchip/pic/dcd_pic.o
  .debug_macro   0x00000000      0x211 ./portable/microchip/pic/dcd_pic.o
  .debug_line    0x00000000      0x12b ./portable/microchip/pic/dcd_pic.o
- .debug_str     0x00000000     0x8d31 ./portable/microchip/pic/dcd_pic.o
+ .debug_str     0x00000000     0x8b77 ./portable/microchip/pic/dcd_pic.o
  .comment       0x00000000       0x44 ./portable/microchip/pic/dcd_pic.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/microchip/pic/dcd_pic.o
@@ -4264,11 +4264,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/microchip/pic32mz/dcd_pic32mz.o
  .debug_macro   0x00000000      0x3be ./portable/microchip/pic32mz/dcd_pic32mz.o
  .debug_macro   0x00000000       0x6b ./portable/microchip/pic32mz/dcd_pic32mz.o
- .debug_macro   0x00000000      0x110 ./portable/microchip/pic32mz/dcd_pic32mz.o
+ .debug_macro   0x00000000      0x112 ./portable/microchip/pic32mz/dcd_pic32mz.o
  .debug_macro   0x00000000       0x3b ./portable/microchip/pic32mz/dcd_pic32mz.o
  .debug_macro   0x00000000      0x211 ./portable/microchip/pic32mz/dcd_pic32mz.o
  .debug_line    0x00000000      0x133 ./portable/microchip/pic32mz/dcd_pic32mz.o
- .debug_str     0x00000000     0x8d39 ./portable/microchip/pic32mz/dcd_pic32mz.o
+ .debug_str     0x00000000     0x8b7f ./portable/microchip/pic32mz/dcd_pic32mz.o
  .comment       0x00000000       0x44 ./portable/microchip/pic32mz/dcd_pic32mz.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/microchip/pic32mz/dcd_pic32mz.o
@@ -4291,11 +4291,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/microchip/samd/dcd_samd.o
  .debug_macro   0x00000000      0x3be ./portable/microchip/samd/dcd_samd.o
  .debug_macro   0x00000000       0x6b ./portable/microchip/samd/dcd_samd.o
- .debug_macro   0x00000000      0x110 ./portable/microchip/samd/dcd_samd.o
+ .debug_macro   0x00000000      0x112 ./portable/microchip/samd/dcd_samd.o
  .debug_macro   0x00000000       0x3b ./portable/microchip/samd/dcd_samd.o
  .debug_macro   0x00000000      0x211 ./portable/microchip/samd/dcd_samd.o
  .debug_line    0x00000000      0x12d ./portable/microchip/samd/dcd_samd.o
- .debug_str     0x00000000     0x8d33 ./portable/microchip/samd/dcd_samd.o
+ .debug_str     0x00000000     0x8b79 ./portable/microchip/samd/dcd_samd.o
  .comment       0x00000000       0x44 ./portable/microchip/samd/dcd_samd.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/microchip/samd/dcd_samd.o
@@ -4318,11 +4318,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/microchip/samd/hcd_samd.o
  .debug_macro   0x00000000      0x3be ./portable/microchip/samd/hcd_samd.o
  .debug_macro   0x00000000       0x6b ./portable/microchip/samd/hcd_samd.o
- .debug_macro   0x00000000      0x110 ./portable/microchip/samd/hcd_samd.o
+ .debug_macro   0x00000000      0x112 ./portable/microchip/samd/hcd_samd.o
  .debug_macro   0x00000000       0x3b ./portable/microchip/samd/hcd_samd.o
  .debug_macro   0x00000000      0x211 ./portable/microchip/samd/hcd_samd.o
  .debug_line    0x00000000      0x12d ./portable/microchip/samd/hcd_samd.o
- .debug_str     0x00000000     0x8d33 ./portable/microchip/samd/hcd_samd.o
+ .debug_str     0x00000000     0x8b79 ./portable/microchip/samd/hcd_samd.o
  .comment       0x00000000       0x44 ./portable/microchip/samd/hcd_samd.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/microchip/samd/hcd_samd.o
@@ -4345,11 +4345,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/microchip/samg/dcd_samg.o
  .debug_macro   0x00000000      0x3be ./portable/microchip/samg/dcd_samg.o
  .debug_macro   0x00000000       0x6b ./portable/microchip/samg/dcd_samg.o
- .debug_macro   0x00000000      0x110 ./portable/microchip/samg/dcd_samg.o
+ .debug_macro   0x00000000      0x112 ./portable/microchip/samg/dcd_samg.o
  .debug_macro   0x00000000       0x3b ./portable/microchip/samg/dcd_samg.o
  .debug_macro   0x00000000      0x211 ./portable/microchip/samg/dcd_samg.o
  .debug_line    0x00000000      0x12d ./portable/microchip/samg/dcd_samg.o
- .debug_str     0x00000000     0x8d33 ./portable/microchip/samg/dcd_samg.o
+ .debug_str     0x00000000     0x8b79 ./portable/microchip/samg/dcd_samg.o
  .comment       0x00000000       0x44 ./portable/microchip/samg/dcd_samg.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/microchip/samg/dcd_samg.o
@@ -4372,11 +4372,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/microchip/samx7x/dcd_samx7x.o
  .debug_macro   0x00000000      0x3be ./portable/microchip/samx7x/dcd_samx7x.o
  .debug_macro   0x00000000       0x6b ./portable/microchip/samx7x/dcd_samx7x.o
- .debug_macro   0x00000000      0x110 ./portable/microchip/samx7x/dcd_samx7x.o
+ .debug_macro   0x00000000      0x112 ./portable/microchip/samx7x/dcd_samx7x.o
  .debug_macro   0x00000000       0x3b ./portable/microchip/samx7x/dcd_samx7x.o
  .debug_macro   0x00000000      0x211 ./portable/microchip/samx7x/dcd_samx7x.o
  .debug_line    0x00000000      0x131 ./portable/microchip/samx7x/dcd_samx7x.o
- .debug_str     0x00000000     0x8d37 ./portable/microchip/samx7x/dcd_samx7x.o
+ .debug_str     0x00000000     0x8b7d ./portable/microchip/samx7x/dcd_samx7x.o
  .comment       0x00000000       0x44 ./portable/microchip/samx7x/dcd_samx7x.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/microchip/samx7x/dcd_samx7x.o
@@ -4399,11 +4399,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/mindmotion/mm32/dcd_mm32f327x_otg.o
  .debug_macro   0x00000000      0x3be ./portable/mindmotion/mm32/dcd_mm32f327x_otg.o
  .debug_macro   0x00000000       0x6b ./portable/mindmotion/mm32/dcd_mm32f327x_otg.o
- .debug_macro   0x00000000      0x110 ./portable/mindmotion/mm32/dcd_mm32f327x_otg.o
+ .debug_macro   0x00000000      0x112 ./portable/mindmotion/mm32/dcd_mm32f327x_otg.o
  .debug_macro   0x00000000       0x3b ./portable/mindmotion/mm32/dcd_mm32f327x_otg.o
  .debug_macro   0x00000000      0x211 ./portable/mindmotion/mm32/dcd_mm32f327x_otg.o
  .debug_line    0x00000000      0x137 ./portable/mindmotion/mm32/dcd_mm32f327x_otg.o
- .debug_str     0x00000000     0x8d3d ./portable/mindmotion/mm32/dcd_mm32f327x_otg.o
+ .debug_str     0x00000000     0x8b83 ./portable/mindmotion/mm32/dcd_mm32f327x_otg.o
  .comment       0x00000000       0x44 ./portable/mindmotion/mm32/dcd_mm32f327x_otg.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/mindmotion/mm32/dcd_mm32f327x_otg.o
@@ -4426,11 +4426,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/nordic/nrf5x/dcd_nrf5x.o
  .debug_macro   0x00000000      0x3be ./portable/nordic/nrf5x/dcd_nrf5x.o
  .debug_macro   0x00000000       0x6b ./portable/nordic/nrf5x/dcd_nrf5x.o
- .debug_macro   0x00000000      0x110 ./portable/nordic/nrf5x/dcd_nrf5x.o
+ .debug_macro   0x00000000      0x112 ./portable/nordic/nrf5x/dcd_nrf5x.o
  .debug_macro   0x00000000       0x3b ./portable/nordic/nrf5x/dcd_nrf5x.o
  .debug_macro   0x00000000      0x211 ./portable/nordic/nrf5x/dcd_nrf5x.o
  .debug_line    0x00000000      0x12c ./portable/nordic/nrf5x/dcd_nrf5x.o
- .debug_str     0x00000000     0x8d32 ./portable/nordic/nrf5x/dcd_nrf5x.o
+ .debug_str     0x00000000     0x8b78 ./portable/nordic/nrf5x/dcd_nrf5x.o
  .comment       0x00000000       0x44 ./portable/nordic/nrf5x/dcd_nrf5x.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/nordic/nrf5x/dcd_nrf5x.o
@@ -4453,11 +4453,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/nuvoton/nuc120/dcd_nuc120.o
  .debug_macro   0x00000000      0x3be ./portable/nuvoton/nuc120/dcd_nuc120.o
  .debug_macro   0x00000000       0x6b ./portable/nuvoton/nuc120/dcd_nuc120.o
- .debug_macro   0x00000000      0x110 ./portable/nuvoton/nuc120/dcd_nuc120.o
+ .debug_macro   0x00000000      0x112 ./portable/nuvoton/nuc120/dcd_nuc120.o
  .debug_macro   0x00000000       0x3b ./portable/nuvoton/nuc120/dcd_nuc120.o
  .debug_macro   0x00000000      0x211 ./portable/nuvoton/nuc120/dcd_nuc120.o
  .debug_line    0x00000000      0x12f ./portable/nuvoton/nuc120/dcd_nuc120.o
- .debug_str     0x00000000     0x8d35 ./portable/nuvoton/nuc120/dcd_nuc120.o
+ .debug_str     0x00000000     0x8b7b ./portable/nuvoton/nuc120/dcd_nuc120.o
  .comment       0x00000000       0x44 ./portable/nuvoton/nuc120/dcd_nuc120.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/nuvoton/nuc120/dcd_nuc120.o
@@ -4480,11 +4480,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/nuvoton/nuc121/dcd_nuc121.o
  .debug_macro   0x00000000      0x3be ./portable/nuvoton/nuc121/dcd_nuc121.o
  .debug_macro   0x00000000       0x6b ./portable/nuvoton/nuc121/dcd_nuc121.o
- .debug_macro   0x00000000      0x110 ./portable/nuvoton/nuc121/dcd_nuc121.o
+ .debug_macro   0x00000000      0x112 ./portable/nuvoton/nuc121/dcd_nuc121.o
  .debug_macro   0x00000000       0x3b ./portable/nuvoton/nuc121/dcd_nuc121.o
  .debug_macro   0x00000000      0x211 ./portable/nuvoton/nuc121/dcd_nuc121.o
  .debug_line    0x00000000      0x12f ./portable/nuvoton/nuc121/dcd_nuc121.o
- .debug_str     0x00000000     0x8d35 ./portable/nuvoton/nuc121/dcd_nuc121.o
+ .debug_str     0x00000000     0x8b7b ./portable/nuvoton/nuc121/dcd_nuc121.o
  .comment       0x00000000       0x44 ./portable/nuvoton/nuc121/dcd_nuc121.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/nuvoton/nuc121/dcd_nuc121.o
@@ -4507,11 +4507,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/nuvoton/nuc505/dcd_nuc505.o
  .debug_macro   0x00000000      0x3be ./portable/nuvoton/nuc505/dcd_nuc505.o
  .debug_macro   0x00000000       0x6b ./portable/nuvoton/nuc505/dcd_nuc505.o
- .debug_macro   0x00000000      0x110 ./portable/nuvoton/nuc505/dcd_nuc505.o
+ .debug_macro   0x00000000      0x112 ./portable/nuvoton/nuc505/dcd_nuc505.o
  .debug_macro   0x00000000       0x3b ./portable/nuvoton/nuc505/dcd_nuc505.o
  .debug_macro   0x00000000      0x211 ./portable/nuvoton/nuc505/dcd_nuc505.o
  .debug_line    0x00000000      0x12f ./portable/nuvoton/nuc505/dcd_nuc505.o
- .debug_str     0x00000000     0x8d35 ./portable/nuvoton/nuc505/dcd_nuc505.o
+ .debug_str     0x00000000     0x8b7b ./portable/nuvoton/nuc505/dcd_nuc505.o
  .comment       0x00000000       0x44 ./portable/nuvoton/nuc505/dcd_nuc505.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/nuvoton/nuc505/dcd_nuc505.o
@@ -4534,11 +4534,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/nxp/khci/dcd_khci.o
  .debug_macro   0x00000000      0x3be ./portable/nxp/khci/dcd_khci.o
  .debug_macro   0x00000000       0x6b ./portable/nxp/khci/dcd_khci.o
- .debug_macro   0x00000000      0x110 ./portable/nxp/khci/dcd_khci.o
+ .debug_macro   0x00000000      0x112 ./portable/nxp/khci/dcd_khci.o
  .debug_macro   0x00000000       0x3b ./portable/nxp/khci/dcd_khci.o
  .debug_macro   0x00000000      0x211 ./portable/nxp/khci/dcd_khci.o
  .debug_line    0x00000000      0x127 ./portable/nxp/khci/dcd_khci.o
- .debug_str     0x00000000     0x8d2d ./portable/nxp/khci/dcd_khci.o
+ .debug_str     0x00000000     0x8b73 ./portable/nxp/khci/dcd_khci.o
  .comment       0x00000000       0x44 ./portable/nxp/khci/dcd_khci.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/nxp/khci/dcd_khci.o
@@ -4561,11 +4561,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/nxp/khci/hcd_khci.o
  .debug_macro   0x00000000      0x3be ./portable/nxp/khci/hcd_khci.o
  .debug_macro   0x00000000       0x6b ./portable/nxp/khci/hcd_khci.o
- .debug_macro   0x00000000      0x110 ./portable/nxp/khci/hcd_khci.o
+ .debug_macro   0x00000000      0x112 ./portable/nxp/khci/hcd_khci.o
  .debug_macro   0x00000000       0x3b ./portable/nxp/khci/hcd_khci.o
  .debug_macro   0x00000000      0x211 ./portable/nxp/khci/hcd_khci.o
  .debug_line    0x00000000      0x127 ./portable/nxp/khci/hcd_khci.o
- .debug_str     0x00000000     0x8d2d ./portable/nxp/khci/hcd_khci.o
+ .debug_str     0x00000000     0x8b73 ./portable/nxp/khci/hcd_khci.o
  .comment       0x00000000       0x44 ./portable/nxp/khci/hcd_khci.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/nxp/khci/hcd_khci.o
@@ -4588,11 +4588,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/nxp/lpc17_40/dcd_lpc17_40.o
  .debug_macro   0x00000000      0x3be ./portable/nxp/lpc17_40/dcd_lpc17_40.o
  .debug_macro   0x00000000       0x6b ./portable/nxp/lpc17_40/dcd_lpc17_40.o
- .debug_macro   0x00000000      0x110 ./portable/nxp/lpc17_40/dcd_lpc17_40.o
+ .debug_macro   0x00000000      0x112 ./portable/nxp/lpc17_40/dcd_lpc17_40.o
  .debug_macro   0x00000000       0x3b ./portable/nxp/lpc17_40/dcd_lpc17_40.o
  .debug_macro   0x00000000      0x211 ./portable/nxp/lpc17_40/dcd_lpc17_40.o
  .debug_line    0x00000000      0x12f ./portable/nxp/lpc17_40/dcd_lpc17_40.o
- .debug_str     0x00000000     0x8d35 ./portable/nxp/lpc17_40/dcd_lpc17_40.o
+ .debug_str     0x00000000     0x8b7b ./portable/nxp/lpc17_40/dcd_lpc17_40.o
  .comment       0x00000000       0x44 ./portable/nxp/lpc17_40/dcd_lpc17_40.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/nxp/lpc17_40/dcd_lpc17_40.o
@@ -4615,11 +4615,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/nxp/lpc_ip3511/dcd_lpc_ip3511.o
  .debug_macro   0x00000000      0x3be ./portable/nxp/lpc_ip3511/dcd_lpc_ip3511.o
  .debug_macro   0x00000000       0x6b ./portable/nxp/lpc_ip3511/dcd_lpc_ip3511.o
- .debug_macro   0x00000000      0x110 ./portable/nxp/lpc_ip3511/dcd_lpc_ip3511.o
+ .debug_macro   0x00000000      0x112 ./portable/nxp/lpc_ip3511/dcd_lpc_ip3511.o
  .debug_macro   0x00000000       0x3b ./portable/nxp/lpc_ip3511/dcd_lpc_ip3511.o
  .debug_macro   0x00000000      0x211 ./portable/nxp/lpc_ip3511/dcd_lpc_ip3511.o
  .debug_line    0x00000000      0x133 ./portable/nxp/lpc_ip3511/dcd_lpc_ip3511.o
- .debug_str     0x00000000     0x8d39 ./portable/nxp/lpc_ip3511/dcd_lpc_ip3511.o
+ .debug_str     0x00000000     0x8b7f ./portable/nxp/lpc_ip3511/dcd_lpc_ip3511.o
  .comment       0x00000000       0x44 ./portable/nxp/lpc_ip3511/dcd_lpc_ip3511.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/nxp/lpc_ip3511/dcd_lpc_ip3511.o
@@ -4642,11 +4642,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/ohci/ohci.o
  .debug_macro   0x00000000      0x3be ./portable/ohci/ohci.o
  .debug_macro   0x00000000       0x6b ./portable/ohci/ohci.o
- .debug_macro   0x00000000      0x110 ./portable/ohci/ohci.o
+ .debug_macro   0x00000000      0x112 ./portable/ohci/ohci.o
  .debug_macro   0x00000000       0x3b ./portable/ohci/ohci.o
  .debug_macro   0x00000000      0x211 ./portable/ohci/ohci.o
  .debug_line    0x00000000      0x11f ./portable/ohci/ohci.o
- .debug_str     0x00000000     0x8d25 ./portable/ohci/ohci.o
+ .debug_str     0x00000000     0x8b6b ./portable/ohci/ohci.o
  .comment       0x00000000       0x44 ./portable/ohci/ohci.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/ohci/ohci.o
@@ -4669,11 +4669,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/raspberrypi/pio_usb/dcd_pio_usb.o
  .debug_macro   0x00000000      0x3be ./portable/raspberrypi/pio_usb/dcd_pio_usb.o
  .debug_macro   0x00000000       0x6b ./portable/raspberrypi/pio_usb/dcd_pio_usb.o
- .debug_macro   0x00000000      0x110 ./portable/raspberrypi/pio_usb/dcd_pio_usb.o
+ .debug_macro   0x00000000      0x112 ./portable/raspberrypi/pio_usb/dcd_pio_usb.o
  .debug_macro   0x00000000       0x3b ./portable/raspberrypi/pio_usb/dcd_pio_usb.o
  .debug_macro   0x00000000      0x211 ./portable/raspberrypi/pio_usb/dcd_pio_usb.o
  .debug_line    0x00000000      0x135 ./portable/raspberrypi/pio_usb/dcd_pio_usb.o
- .debug_str     0x00000000     0x8d3b ./portable/raspberrypi/pio_usb/dcd_pio_usb.o
+ .debug_str     0x00000000     0x8b81 ./portable/raspberrypi/pio_usb/dcd_pio_usb.o
  .comment       0x00000000       0x44 ./portable/raspberrypi/pio_usb/dcd_pio_usb.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/raspberrypi/pio_usb/dcd_pio_usb.o
@@ -4696,11 +4696,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/raspberrypi/pio_usb/hcd_pio_usb.o
  .debug_macro   0x00000000      0x3be ./portable/raspberrypi/pio_usb/hcd_pio_usb.o
  .debug_macro   0x00000000       0x6b ./portable/raspberrypi/pio_usb/hcd_pio_usb.o
- .debug_macro   0x00000000      0x110 ./portable/raspberrypi/pio_usb/hcd_pio_usb.o
+ .debug_macro   0x00000000      0x112 ./portable/raspberrypi/pio_usb/hcd_pio_usb.o
  .debug_macro   0x00000000       0x3b ./portable/raspberrypi/pio_usb/hcd_pio_usb.o
  .debug_macro   0x00000000      0x211 ./portable/raspberrypi/pio_usb/hcd_pio_usb.o
  .debug_line    0x00000000      0x135 ./portable/raspberrypi/pio_usb/hcd_pio_usb.o
- .debug_str     0x00000000     0x8d3b ./portable/raspberrypi/pio_usb/hcd_pio_usb.o
+ .debug_str     0x00000000     0x8b81 ./portable/raspberrypi/pio_usb/hcd_pio_usb.o
  .comment       0x00000000       0x44 ./portable/raspberrypi/pio_usb/hcd_pio_usb.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/raspberrypi/pio_usb/hcd_pio_usb.o
@@ -4723,11 +4723,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/raspberrypi/rp2040/dcd_rp2040.o
  .debug_macro   0x00000000      0x3be ./portable/raspberrypi/rp2040/dcd_rp2040.o
  .debug_macro   0x00000000       0x6b ./portable/raspberrypi/rp2040/dcd_rp2040.o
- .debug_macro   0x00000000      0x110 ./portable/raspberrypi/rp2040/dcd_rp2040.o
+ .debug_macro   0x00000000      0x112 ./portable/raspberrypi/rp2040/dcd_rp2040.o
  .debug_macro   0x00000000       0x3b ./portable/raspberrypi/rp2040/dcd_rp2040.o
  .debug_macro   0x00000000      0x211 ./portable/raspberrypi/rp2040/dcd_rp2040.o
  .debug_line    0x00000000      0x133 ./portable/raspberrypi/rp2040/dcd_rp2040.o
- .debug_str     0x00000000     0x8d39 ./portable/raspberrypi/rp2040/dcd_rp2040.o
+ .debug_str     0x00000000     0x8b7f ./portable/raspberrypi/rp2040/dcd_rp2040.o
  .comment       0x00000000       0x44 ./portable/raspberrypi/rp2040/dcd_rp2040.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/raspberrypi/rp2040/dcd_rp2040.o
@@ -4750,11 +4750,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/raspberrypi/rp2040/hcd_rp2040.o
  .debug_macro   0x00000000      0x3be ./portable/raspberrypi/rp2040/hcd_rp2040.o
  .debug_macro   0x00000000       0x6b ./portable/raspberrypi/rp2040/hcd_rp2040.o
- .debug_macro   0x00000000      0x110 ./portable/raspberrypi/rp2040/hcd_rp2040.o
+ .debug_macro   0x00000000      0x112 ./portable/raspberrypi/rp2040/hcd_rp2040.o
  .debug_macro   0x00000000       0x3b ./portable/raspberrypi/rp2040/hcd_rp2040.o
  .debug_macro   0x00000000      0x211 ./portable/raspberrypi/rp2040/hcd_rp2040.o
  .debug_line    0x00000000      0x133 ./portable/raspberrypi/rp2040/hcd_rp2040.o
- .debug_str     0x00000000     0x8d39 ./portable/raspberrypi/rp2040/hcd_rp2040.o
+ .debug_str     0x00000000     0x8b7f ./portable/raspberrypi/rp2040/hcd_rp2040.o
  .comment       0x00000000       0x44 ./portable/raspberrypi/rp2040/hcd_rp2040.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/raspberrypi/rp2040/hcd_rp2040.o
@@ -4777,11 +4777,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/raspberrypi/rp2040/rp2040_usb.o
  .debug_macro   0x00000000      0x3be ./portable/raspberrypi/rp2040/rp2040_usb.o
  .debug_macro   0x00000000       0x6b ./portable/raspberrypi/rp2040/rp2040_usb.o
- .debug_macro   0x00000000      0x110 ./portable/raspberrypi/rp2040/rp2040_usb.o
+ .debug_macro   0x00000000      0x112 ./portable/raspberrypi/rp2040/rp2040_usb.o
  .debug_macro   0x00000000       0x3b ./portable/raspberrypi/rp2040/rp2040_usb.o
  .debug_macro   0x00000000      0x211 ./portable/raspberrypi/rp2040/rp2040_usb.o
  .debug_line    0x00000000      0x133 ./portable/raspberrypi/rp2040/rp2040_usb.o
- .debug_str     0x00000000     0x8d39 ./portable/raspberrypi/rp2040/rp2040_usb.o
+ .debug_str     0x00000000     0x8b7f ./portable/raspberrypi/rp2040/rp2040_usb.o
  .comment       0x00000000       0x44 ./portable/raspberrypi/rp2040/rp2040_usb.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/raspberrypi/rp2040/rp2040_usb.o
@@ -4804,11 +4804,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/renesas/rusb2/dcd_rusb2.o
  .debug_macro   0x00000000      0x3be ./portable/renesas/rusb2/dcd_rusb2.o
  .debug_macro   0x00000000       0x6b ./portable/renesas/rusb2/dcd_rusb2.o
- .debug_macro   0x00000000      0x110 ./portable/renesas/rusb2/dcd_rusb2.o
+ .debug_macro   0x00000000      0x112 ./portable/renesas/rusb2/dcd_rusb2.o
  .debug_macro   0x00000000       0x3b ./portable/renesas/rusb2/dcd_rusb2.o
  .debug_macro   0x00000000      0x211 ./portable/renesas/rusb2/dcd_rusb2.o
  .debug_line    0x00000000      0x12d ./portable/renesas/rusb2/dcd_rusb2.o
- .debug_str     0x00000000     0x8d33 ./portable/renesas/rusb2/dcd_rusb2.o
+ .debug_str     0x00000000     0x8b79 ./portable/renesas/rusb2/dcd_rusb2.o
  .comment       0x00000000       0x44 ./portable/renesas/rusb2/dcd_rusb2.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/renesas/rusb2/dcd_rusb2.o
@@ -4831,11 +4831,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/renesas/rusb2/hcd_rusb2.o
  .debug_macro   0x00000000      0x3be ./portable/renesas/rusb2/hcd_rusb2.o
  .debug_macro   0x00000000       0x6b ./portable/renesas/rusb2/hcd_rusb2.o
- .debug_macro   0x00000000      0x110 ./portable/renesas/rusb2/hcd_rusb2.o
+ .debug_macro   0x00000000      0x112 ./portable/renesas/rusb2/hcd_rusb2.o
  .debug_macro   0x00000000       0x3b ./portable/renesas/rusb2/hcd_rusb2.o
  .debug_macro   0x00000000      0x211 ./portable/renesas/rusb2/hcd_rusb2.o
  .debug_line    0x00000000      0x12d ./portable/renesas/rusb2/hcd_rusb2.o
- .debug_str     0x00000000     0x8d33 ./portable/renesas/rusb2/hcd_rusb2.o
+ .debug_str     0x00000000     0x8b79 ./portable/renesas/rusb2/hcd_rusb2.o
  .comment       0x00000000       0x44 ./portable/renesas/rusb2/hcd_rusb2.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/renesas/rusb2/hcd_rusb2.o
@@ -4858,11 +4858,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/renesas/rusb2/rusb2_common.o
  .debug_macro   0x00000000      0x3be ./portable/renesas/rusb2/rusb2_common.o
  .debug_macro   0x00000000       0x6b ./portable/renesas/rusb2/rusb2_common.o
- .debug_macro   0x00000000      0x110 ./portable/renesas/rusb2/rusb2_common.o
+ .debug_macro   0x00000000      0x112 ./portable/renesas/rusb2/rusb2_common.o
  .debug_macro   0x00000000       0x3b ./portable/renesas/rusb2/rusb2_common.o
  .debug_macro   0x00000000      0x211 ./portable/renesas/rusb2/rusb2_common.o
  .debug_line    0x00000000      0x130 ./portable/renesas/rusb2/rusb2_common.o
- .debug_str     0x00000000     0x8d36 ./portable/renesas/rusb2/rusb2_common.o
+ .debug_str     0x00000000     0x8b7c ./portable/renesas/rusb2/rusb2_common.o
  .comment       0x00000000       0x44 ./portable/renesas/rusb2/rusb2_common.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/renesas/rusb2/rusb2_common.o
@@ -4885,11 +4885,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/sony/cxd56/dcd_cxd56.o
  .debug_macro   0x00000000      0x3be ./portable/sony/cxd56/dcd_cxd56.o
  .debug_macro   0x00000000       0x6b ./portable/sony/cxd56/dcd_cxd56.o
- .debug_macro   0x00000000      0x110 ./portable/sony/cxd56/dcd_cxd56.o
+ .debug_macro   0x00000000      0x112 ./portable/sony/cxd56/dcd_cxd56.o
  .debug_macro   0x00000000       0x3b ./portable/sony/cxd56/dcd_cxd56.o
  .debug_macro   0x00000000      0x211 ./portable/sony/cxd56/dcd_cxd56.o
  .debug_line    0x00000000      0x12a ./portable/sony/cxd56/dcd_cxd56.o
- .debug_str     0x00000000     0x8d30 ./portable/sony/cxd56/dcd_cxd56.o
+ .debug_str     0x00000000     0x8b76 ./portable/sony/cxd56/dcd_cxd56.o
  .comment       0x00000000       0x44 ./portable/sony/cxd56/dcd_cxd56.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/sony/cxd56/dcd_cxd56.o
@@ -4912,11 +4912,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/st/stm32_fsdev/dcd_stm32_fsdev.o
  .debug_macro   0x00000000      0x3be ./portable/st/stm32_fsdev/dcd_stm32_fsdev.o
  .debug_macro   0x00000000       0x6b ./portable/st/stm32_fsdev/dcd_stm32_fsdev.o
- .debug_macro   0x00000000      0x110 ./portable/st/stm32_fsdev/dcd_stm32_fsdev.o
+ .debug_macro   0x00000000      0x112 ./portable/st/stm32_fsdev/dcd_stm32_fsdev.o
  .debug_macro   0x00000000       0x3b ./portable/st/stm32_fsdev/dcd_stm32_fsdev.o
  .debug_macro   0x00000000      0x211 ./portable/st/stm32_fsdev/dcd_stm32_fsdev.o
  .debug_line    0x00000000      0x134 ./portable/st/stm32_fsdev/dcd_stm32_fsdev.o
- .debug_str     0x00000000     0x8d3a ./portable/st/stm32_fsdev/dcd_stm32_fsdev.o
+ .debug_str     0x00000000     0x8b80 ./portable/st/stm32_fsdev/dcd_stm32_fsdev.o
  .comment       0x00000000       0x44 ./portable/st/stm32_fsdev/dcd_stm32_fsdev.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/st/stm32_fsdev/dcd_stm32_fsdev.o
@@ -4939,11 +4939,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/st/stm32_fsdev/fsdev_common.o
  .debug_macro   0x00000000      0x3be ./portable/st/stm32_fsdev/fsdev_common.o
  .debug_macro   0x00000000       0x6b ./portable/st/stm32_fsdev/fsdev_common.o
- .debug_macro   0x00000000      0x110 ./portable/st/stm32_fsdev/fsdev_common.o
+ .debug_macro   0x00000000      0x112 ./portable/st/stm32_fsdev/fsdev_common.o
  .debug_macro   0x00000000       0x3b ./portable/st/stm32_fsdev/fsdev_common.o
  .debug_macro   0x00000000      0x211 ./portable/st/stm32_fsdev/fsdev_common.o
  .debug_line    0x00000000      0x131 ./portable/st/stm32_fsdev/fsdev_common.o
- .debug_str     0x00000000     0x8d37 ./portable/st/stm32_fsdev/fsdev_common.o
+ .debug_str     0x00000000     0x8b7d ./portable/st/stm32_fsdev/fsdev_common.o
  .comment       0x00000000       0x44 ./portable/st/stm32_fsdev/fsdev_common.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/st/stm32_fsdev/fsdev_common.o
@@ -4966,11 +4966,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/st/stm32_fsdev/hcd_stm32_fsdev.o
  .debug_macro   0x00000000      0x3be ./portable/st/stm32_fsdev/hcd_stm32_fsdev.o
  .debug_macro   0x00000000       0x6b ./portable/st/stm32_fsdev/hcd_stm32_fsdev.o
- .debug_macro   0x00000000      0x110 ./portable/st/stm32_fsdev/hcd_stm32_fsdev.o
+ .debug_macro   0x00000000      0x112 ./portable/st/stm32_fsdev/hcd_stm32_fsdev.o
  .debug_macro   0x00000000       0x3b ./portable/st/stm32_fsdev/hcd_stm32_fsdev.o
  .debug_macro   0x00000000      0x211 ./portable/st/stm32_fsdev/hcd_stm32_fsdev.o
  .debug_line    0x00000000      0x134 ./portable/st/stm32_fsdev/hcd_stm32_fsdev.o
- .debug_str     0x00000000     0x8d3a ./portable/st/stm32_fsdev/hcd_stm32_fsdev.o
+ .debug_str     0x00000000     0x8b80 ./portable/st/stm32_fsdev/hcd_stm32_fsdev.o
  .comment       0x00000000       0x44 ./portable/st/stm32_fsdev/hcd_stm32_fsdev.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/st/stm32_fsdev/hcd_stm32_fsdev.o
@@ -5027,7 +5027,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/st/typec/typec_stm32.o
  .debug_macro   0x00000000      0x3be ./portable/st/typec/typec_stm32.o
  .debug_macro   0x00000000       0x6b ./portable/st/typec/typec_stm32.o
- .debug_macro   0x00000000      0x110 ./portable/st/typec/typec_stm32.o
+ .debug_macro   0x00000000      0x112 ./portable/st/typec/typec_stm32.o
  .debug_macro   0x00000000       0x3b ./portable/st/typec/typec_stm32.o
  .debug_macro   0x00000000      0x211 ./portable/st/typec/typec_stm32.o
  .debug_macro   0x00000000       0xa0 ./portable/st/typec/typec_stm32.o
@@ -5065,7 +5065,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x25 ./portable/st/typec/typec_stm32.o
  .debug_macro   0x00000000       0x25 ./portable/st/typec/typec_stm32.o
  .debug_line    0x00000000      0x779 ./portable/st/typec/typec_stm32.o
- .debug_str     0x00000000     0xf7c8 ./portable/st/typec/typec_stm32.o
+ .debug_str     0x00000000     0xf60e ./portable/st/typec/typec_stm32.o
  .comment       0x00000000       0x44 ./portable/st/typec/typec_stm32.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/st/typec/typec_stm32.o
@@ -5100,11 +5100,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/sunxi/dcd_sunxi_musb.o
  .debug_macro   0x00000000      0x3be ./portable/sunxi/dcd_sunxi_musb.o
  .debug_macro   0x00000000       0x6b ./portable/sunxi/dcd_sunxi_musb.o
- .debug_macro   0x00000000      0x110 ./portable/sunxi/dcd_sunxi_musb.o
+ .debug_macro   0x00000000      0x112 ./portable/sunxi/dcd_sunxi_musb.o
  .debug_macro   0x00000000       0x3b ./portable/sunxi/dcd_sunxi_musb.o
  .debug_macro   0x00000000      0x211 ./portable/sunxi/dcd_sunxi_musb.o
  .debug_line    0x00000000      0x4e9 ./portable/sunxi/dcd_sunxi_musb.o
- .debug_str     0x00000000     0x9c3a ./portable/sunxi/dcd_sunxi_musb.o
+ .debug_str     0x00000000     0x9a80 ./portable/sunxi/dcd_sunxi_musb.o
  .comment       0x00000000       0x44 ./portable/sunxi/dcd_sunxi_musb.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/sunxi/dcd_sunxi_musb.o
@@ -5197,7 +5197,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/synopsys/dwc2/dcd_dwc2.o
  .debug_macro   0x00000000      0x3be ./portable/synopsys/dwc2/dcd_dwc2.o
  .debug_macro   0x00000000       0x6b ./portable/synopsys/dwc2/dcd_dwc2.o
- .debug_macro   0x00000000      0x110 ./portable/synopsys/dwc2/dcd_dwc2.o
+ .debug_macro   0x00000000      0x112 ./portable/synopsys/dwc2/dcd_dwc2.o
  .debug_macro   0x00000000       0x3b ./portable/synopsys/dwc2/dcd_dwc2.o
  .debug_macro   0x00000000      0x211 ./portable/synopsys/dwc2/dcd_dwc2.o
  .debug_macro   0x00000000       0xa0 ./portable/synopsys/dwc2/dcd_dwc2.o
@@ -5351,7 +5351,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/synopsys/dwc2/dwc2_common.o
  .debug_macro   0x00000000      0x3be ./portable/synopsys/dwc2/dwc2_common.o
  .debug_macro   0x00000000       0x6b ./portable/synopsys/dwc2/dwc2_common.o
- .debug_macro   0x00000000      0x110 ./portable/synopsys/dwc2/dwc2_common.o
+ .debug_macro   0x00000000      0x112 ./portable/synopsys/dwc2/dwc2_common.o
  .debug_macro   0x00000000       0x3b ./portable/synopsys/dwc2/dwc2_common.o
  .debug_macro   0x00000000      0x211 ./portable/synopsys/dwc2/dwc2_common.o
  .debug_macro   0x00000000       0xa0 ./portable/synopsys/dwc2/dwc2_common.o
@@ -5442,11 +5442,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/synopsys/dwc2/hcd_dwc2.o
  .debug_macro   0x00000000      0x3be ./portable/synopsys/dwc2/hcd_dwc2.o
  .debug_macro   0x00000000       0x6b ./portable/synopsys/dwc2/hcd_dwc2.o
- .debug_macro   0x00000000      0x110 ./portable/synopsys/dwc2/hcd_dwc2.o
+ .debug_macro   0x00000000      0x112 ./portable/synopsys/dwc2/hcd_dwc2.o
  .debug_macro   0x00000000       0x3b ./portable/synopsys/dwc2/hcd_dwc2.o
  .debug_macro   0x00000000      0x211 ./portable/synopsys/dwc2/hcd_dwc2.o
  .debug_line    0x00000000      0x12c ./portable/synopsys/dwc2/hcd_dwc2.o
- .debug_str     0x00000000     0x8d32 ./portable/synopsys/dwc2/hcd_dwc2.o
+ .debug_str     0x00000000     0x8b78 ./portable/synopsys/dwc2/hcd_dwc2.o
  .comment       0x00000000       0x44 ./portable/synopsys/dwc2/hcd_dwc2.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/synopsys/dwc2/hcd_dwc2.o
@@ -5469,11 +5469,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/template/dcd_template.o
  .debug_macro   0x00000000      0x3be ./portable/template/dcd_template.o
  .debug_macro   0x00000000       0x6b ./portable/template/dcd_template.o
- .debug_macro   0x00000000      0x110 ./portable/template/dcd_template.o
+ .debug_macro   0x00000000      0x112 ./portable/template/dcd_template.o
  .debug_macro   0x00000000       0x3b ./portable/template/dcd_template.o
  .debug_macro   0x00000000      0x211 ./portable/template/dcd_template.o
  .debug_line    0x00000000      0x12b ./portable/template/dcd_template.o
- .debug_str     0x00000000     0x8d31 ./portable/template/dcd_template.o
+ .debug_str     0x00000000     0x8b77 ./portable/template/dcd_template.o
  .comment       0x00000000       0x44 ./portable/template/dcd_template.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/template/dcd_template.o
@@ -5496,11 +5496,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/template/hcd_template.o
  .debug_macro   0x00000000      0x3be ./portable/template/hcd_template.o
  .debug_macro   0x00000000       0x6b ./portable/template/hcd_template.o
- .debug_macro   0x00000000      0x110 ./portable/template/hcd_template.o
+ .debug_macro   0x00000000      0x112 ./portable/template/hcd_template.o
  .debug_macro   0x00000000       0x3b ./portable/template/hcd_template.o
  .debug_macro   0x00000000      0x211 ./portable/template/hcd_template.o
  .debug_line    0x00000000      0x12b ./portable/template/hcd_template.o
- .debug_str     0x00000000     0x8d31 ./portable/template/hcd_template.o
+ .debug_str     0x00000000     0x8b77 ./portable/template/hcd_template.o
  .comment       0x00000000       0x44 ./portable/template/hcd_template.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/template/hcd_template.o
@@ -5523,11 +5523,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/ti/msp430x5xx/dcd_msp430x5xx.o
  .debug_macro   0x00000000      0x3be ./portable/ti/msp430x5xx/dcd_msp430x5xx.o
  .debug_macro   0x00000000       0x6b ./portable/ti/msp430x5xx/dcd_msp430x5xx.o
- .debug_macro   0x00000000      0x110 ./portable/ti/msp430x5xx/dcd_msp430x5xx.o
+ .debug_macro   0x00000000      0x112 ./portable/ti/msp430x5xx/dcd_msp430x5xx.o
  .debug_macro   0x00000000       0x3b ./portable/ti/msp430x5xx/dcd_msp430x5xx.o
  .debug_macro   0x00000000      0x211 ./portable/ti/msp430x5xx/dcd_msp430x5xx.o
  .debug_line    0x00000000      0x132 ./portable/ti/msp430x5xx/dcd_msp430x5xx.o
- .debug_str     0x00000000     0x8d38 ./portable/ti/msp430x5xx/dcd_msp430x5xx.o
+ .debug_str     0x00000000     0x8b7e ./portable/ti/msp430x5xx/dcd_msp430x5xx.o
  .comment       0x00000000       0x44 ./portable/ti/msp430x5xx/dcd_msp430x5xx.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/ti/msp430x5xx/dcd_msp430x5xx.o
@@ -5550,11 +5550,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/valentyusb/eptri/dcd_eptri.o
  .debug_macro   0x00000000      0x3be ./portable/valentyusb/eptri/dcd_eptri.o
  .debug_macro   0x00000000       0x6b ./portable/valentyusb/eptri/dcd_eptri.o
- .debug_macro   0x00000000      0x110 ./portable/valentyusb/eptri/dcd_eptri.o
+ .debug_macro   0x00000000      0x112 ./portable/valentyusb/eptri/dcd_eptri.o
  .debug_macro   0x00000000       0x3b ./portable/valentyusb/eptri/dcd_eptri.o
  .debug_macro   0x00000000      0x211 ./portable/valentyusb/eptri/dcd_eptri.o
  .debug_line    0x00000000      0x130 ./portable/valentyusb/eptri/dcd_eptri.o
- .debug_str     0x00000000     0x8d36 ./portable/valentyusb/eptri/dcd_eptri.o
+ .debug_str     0x00000000     0x8b7c ./portable/valentyusb/eptri/dcd_eptri.o
  .comment       0x00000000       0x44 ./portable/valentyusb/eptri/dcd_eptri.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/valentyusb/eptri/dcd_eptri.o
@@ -5577,11 +5577,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/wch/dcd_ch32_usbfs.o
  .debug_macro   0x00000000      0x3be ./portable/wch/dcd_ch32_usbfs.o
  .debug_macro   0x00000000       0x6b ./portable/wch/dcd_ch32_usbfs.o
- .debug_macro   0x00000000      0x110 ./portable/wch/dcd_ch32_usbfs.o
+ .debug_macro   0x00000000      0x112 ./portable/wch/dcd_ch32_usbfs.o
  .debug_macro   0x00000000       0x3b ./portable/wch/dcd_ch32_usbfs.o
  .debug_macro   0x00000000      0x211 ./portable/wch/dcd_ch32_usbfs.o
  .debug_line    0x00000000      0x128 ./portable/wch/dcd_ch32_usbfs.o
- .debug_str     0x00000000     0x8d2e ./portable/wch/dcd_ch32_usbfs.o
+ .debug_str     0x00000000     0x8b74 ./portable/wch/dcd_ch32_usbfs.o
  .comment       0x00000000       0x44 ./portable/wch/dcd_ch32_usbfs.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/wch/dcd_ch32_usbfs.o
@@ -5604,11 +5604,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/wch/dcd_ch32_usbhs.o
  .debug_macro   0x00000000      0x3be ./portable/wch/dcd_ch32_usbhs.o
  .debug_macro   0x00000000       0x6b ./portable/wch/dcd_ch32_usbhs.o
- .debug_macro   0x00000000      0x110 ./portable/wch/dcd_ch32_usbhs.o
+ .debug_macro   0x00000000      0x112 ./portable/wch/dcd_ch32_usbhs.o
  .debug_macro   0x00000000       0x3b ./portable/wch/dcd_ch32_usbhs.o
  .debug_macro   0x00000000      0x211 ./portable/wch/dcd_ch32_usbhs.o
  .debug_line    0x00000000      0x128 ./portable/wch/dcd_ch32_usbhs.o
- .debug_str     0x00000000     0x8d2e ./portable/wch/dcd_ch32_usbhs.o
+ .debug_str     0x00000000     0x8b74 ./portable/wch/dcd_ch32_usbhs.o
  .comment       0x00000000       0x44 ./portable/wch/dcd_ch32_usbhs.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/wch/dcd_ch32_usbhs.o
@@ -5631,11 +5631,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./portable/wch/hcd_ch32_usbfs.o
  .debug_macro   0x00000000      0x3be ./portable/wch/hcd_ch32_usbfs.o
  .debug_macro   0x00000000       0x6b ./portable/wch/hcd_ch32_usbfs.o
- .debug_macro   0x00000000      0x110 ./portable/wch/hcd_ch32_usbfs.o
+ .debug_macro   0x00000000      0x112 ./portable/wch/hcd_ch32_usbfs.o
  .debug_macro   0x00000000       0x3b ./portable/wch/hcd_ch32_usbfs.o
  .debug_macro   0x00000000      0x211 ./portable/wch/hcd_ch32_usbfs.o
  .debug_line    0x00000000      0x128 ./portable/wch/hcd_ch32_usbfs.o
- .debug_str     0x00000000     0x8d2e ./portable/wch/hcd_ch32_usbfs.o
+ .debug_str     0x00000000     0x8b74 ./portable/wch/hcd_ch32_usbfs.o
  .comment       0x00000000       0x44 ./portable/wch/hcd_ch32_usbfs.o
  .ARM.attributes
                 0x00000000       0x34 ./portable/wch/hcd_ch32_usbfs.o
@@ -5734,7 +5734,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./tusb.o
  .debug_macro   0x00000000      0x3be ./tusb.o
  .debug_macro   0x00000000       0x6b ./tusb.o
- .debug_macro   0x00000000      0x110 ./tusb.o
+ .debug_macro   0x00000000      0x112 ./tusb.o
  .debug_macro   0x00000000       0x3b ./tusb.o
  .debug_macro   0x00000000      0x211 ./tusb.o
  .debug_macro   0x00000000       0xa0 ./tusb.o
@@ -5795,11 +5795,11 @@ Discarded input sections
  .debug_macro   0x00000000      0x192 ./typec/usbc.o
  .debug_macro   0x00000000      0x3be ./typec/usbc.o
  .debug_macro   0x00000000       0x6b ./typec/usbc.o
- .debug_macro   0x00000000      0x110 ./typec/usbc.o
+ .debug_macro   0x00000000      0x112 ./typec/usbc.o
  .debug_macro   0x00000000       0x3b ./typec/usbc.o
  .debug_macro   0x00000000      0x211 ./typec/usbc.o
  .debug_line    0x00000000      0x117 ./typec/usbc.o
- .debug_str     0x00000000     0x8d1d ./typec/usbc.o
+ .debug_str     0x00000000     0x8b63 ./typec/usbc.o
  .comment       0x00000000       0x44 ./typec/usbc.o
  .ARM.attributes
                 0x00000000       0x34 ./typec/usbc.o
@@ -7004,7 +7004,7 @@ LOAD C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x10000000                        _eccmram = .
                 0x10000000                        . = ALIGN (0x4)
 
-.bss            0x20000040     0x1324
+.bss            0x20000040     0x2c24
                 0x20000040                        _sbss = .
                 0x20000040                        __bss_start__ = _sbss
  *(.bss)
@@ -7026,58 +7026,58 @@ LOAD C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .bss.ep_in_sw_buf
                 0x20000630      0x380 ./class/audio/audio_device.o
  .bss.ep_out_sw_buf
-                0x200009b0      0x700 ./class/audio/audio_device.o
- .bss.ctrl_buf  0x200010b0       0x40 ./class/audio/audio_device.o
-                0x200010b0                ctrl_buf
+                0x200009b0     0x2000 ./class/audio/audio_device.o
+ .bss.ctrl_buf  0x200029b0       0x40 ./class/audio/audio_device.o
+                0x200029b0                ctrl_buf
  .bss._audiod_fct
-                0x200010f0       0x48 ./class/audio/audio_device.o
+                0x200029f0       0x48 ./class/audio/audio_device.o
  .bss.ctrl_blackout.0
-                0x20001138        0x4 ./class/audio/audio_device.o
+                0x20002a38        0x4 ./class/audio/audio_device.o
  .bss._usbd_dev
-                0x2000113c       0x2f ./device/usbd.o
+                0x20002a3c       0x2f ./device/usbd.o
  .bss._usbd_queued_setup
-                0x2000116b        0x1 ./device/usbd.o
+                0x20002a6b        0x1 ./device/usbd.o
  .bss._app_driver
-                0x2000116c        0x4 ./device/usbd.o
+                0x20002a6c        0x4 ./device/usbd.o
  .bss._app_driver_count
-                0x20001170        0x1 ./device/usbd.o
- *fill*         0x20001171        0x3 
+                0x20002a70        0x1 ./device/usbd.o
+ *fill*         0x20002a71        0x3 
  .bss._usbd_qdef_buf
-                0x20001174       0xc0 ./device/usbd.o
-                0x20001174                _usbd_qdef_buf
- .bss._usbd_q   0x20001234        0x4 ./device/usbd.o
+                0x20002a74       0xc0 ./device/usbd.o
+                0x20002a74                _usbd_qdef_buf
+ .bss._usbd_q   0x20002b34        0x4 ./device/usbd.o
  .bss._ctrl_xfer
-                0x20001238       0x14 ./device/usbd_control.o
+                0x20002b38       0x14 ./device/usbd_control.o
  .bss._ctrl_epbuf
-                0x2000124c       0x40 ./device/usbd_control.o
+                0x20002b4c       0x40 ./device/usbd_control.o
  .bss.xfer_status
-                0x2000128c       0xc0 ./portable/synopsys/dwc2/dcd_dwc2.o
+                0x20002b8c       0xc0 ./portable/synopsys/dwc2/dcd_dwc2.o
  .bss._dcd_data
-                0x2000134c        0x8 ./portable/synopsys/dwc2/dcd_dwc2.o
+                0x20002c4c        0x8 ./portable/synopsys/dwc2/dcd_dwc2.o
  .bss._dcd_usbbuf
-                0x20001354        0x8 ./portable/synopsys/dwc2/dcd_dwc2.o
- .bss._tud_cfg  0x2000135c        0x2 ./portable/synopsys/dwc2/dcd_dwc2.o
- *fill*         0x2000135e        0x2 
+                0x20002c54        0x8 ./portable/synopsys/dwc2/dcd_dwc2.o
+ .bss._tud_cfg  0x20002c5c        0x2 ./portable/synopsys/dwc2/dcd_dwc2.o
+ *fill*         0x20002c5e        0x2 
  .bss._tusb_rhport_role
-                0x20001360        0x2 ./tusb.o
-                0x20001360                _tusb_rhport_role
+                0x20002c60        0x2 ./tusb.o
+                0x20002c60                _tusb_rhport_role
  *(COMMON)
-                0x20001364                        . = ALIGN (0x4)
- *fill*         0x20001362        0x2 
-                0x20001364                        _ebss = .
-                0x20001364                        __bss_end__ = _ebss
+                0x20002c64                        . = ALIGN (0x4)
+ *fill*         0x20002c62        0x2 
+                0x20002c64                        _ebss = .
+                0x20002c64                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20001364      0x604
-                0x20001368                        . = ALIGN (0x8)
- *fill*         0x20001364        0x4 
+                0x20002c64      0x604
+                0x20002c68                        . = ALIGN (0x8)
+ *fill*         0x20002c64        0x4 
                 [!provide]                        PROVIDE (end = .)
-                0x20001368                        PROVIDE (_end = .)
-                0x20001568                        . = (. + _Min_Heap_Size)
- *fill*         0x20001368      0x200 
-                0x20001968                        . = (. + _Min_Stack_Size)
- *fill*         0x20001568      0x400 
-                0x20001968                        . = ALIGN (0x8)
+                0x20002c68                        PROVIDE (_end = .)
+                0x20002e68                        . = (. + _Min_Heap_Size)
+ *fill*         0x20002c68      0x200 
+                0x20003268                        . = (. + _Min_Stack_Size)
+ *fill*         0x20002e68      0x400 
+                0x20003268                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -7306,7 +7306,7 @@ LOAD C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_rnglists
                 0x00000ce6       0x9d ./tusb.o
 
-.debug_macro    0x00000000    0x289e8
+.debug_macro    0x00000000    0x289ea
  .debug_macro   0x00000000      0x3c3 ./Core/Src/main.o
  .debug_macro   0x000003c3      0xad8 ./Core/Src/main.o
  .debug_macro   0x00000e9b      0x29b ./Core/Src/main.o
@@ -7372,101 +7372,101 @@ LOAD C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x00021f0f      0x192 ./Core/Src/main.o
  .debug_macro   0x000220a1      0x3be ./Core/Src/main.o
  .debug_macro   0x0002245f       0x6b ./Core/Src/main.o
- .debug_macro   0x000224ca      0x110 ./Core/Src/main.o
- .debug_macro   0x000225da       0x3b ./Core/Src/main.o
- .debug_macro   0x00022615      0x211 ./Core/Src/main.o
- .debug_macro   0x00022826       0x46 ./Core/Src/main.o
- .debug_macro   0x0002286c       0x3c ./Core/Src/main.o
- .debug_macro   0x000228a8       0xc7 ./Core/Src/main.o
- .debug_macro   0x0002296f       0x10 ./Core/Src/main.o
- .debug_macro   0x0002297f       0x28 ./Core/Src/main.o
- .debug_macro   0x000229a7       0x25 ./Core/Src/main.o
- .debug_macro   0x000229cc       0x25 ./Core/Src/main.o
- .debug_macro   0x000229f1      0x44d ./Core/Src/main.o
- .debug_macro   0x00022e3e       0x6c ./Core/Src/main.o
- .debug_macro   0x00022eaa       0x3e ./Core/Src/main.o
- .debug_macro   0x00022ee8       0x20 ./Core/Src/main.o
- .debug_macro   0x00022f08      0x1fc ./Core/Src/stm32f4xx_hal_msp.o
- .debug_macro   0x00023104      0x3cd ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x000234d1      0x1ed ./Core/Src/system_stm32f4xx.o
- .debug_macro   0x000236be      0x25d ./Core/Src/usb_descriptors.o
- .debug_macro   0x0002391b       0x89 ./Core/Src/usb_descriptors.o
- .debug_macro   0x000239a4      0x119 ./Core/Src/usb_descriptors.o
- .debug_macro   0x00023abd      0x24d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_macro   0x00023d0a      0x1ed ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_macro   0x00023ef7      0x1f3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_macro   0x000240ea      0x1f3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_macro   0x000242dd      0x1f5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.o
- .debug_macro   0x000244d2      0x1ed ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.o
- .debug_macro   0x000246bf      0x1f9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o
- .debug_macro   0x000248b8      0x211 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_macro   0x00024ac9      0x1ed ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_macro   0x00024cb6      0x1ed ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o
- .debug_macro   0x00024ea3      0x23e ./class/audio/audio_device.o
- .debug_macro   0x000250e1      0x447 ./class/audio/audio_device.o
- .debug_macro   0x00025528       0x2e ./class/audio/audio_device.o
- .debug_macro   0x00025556       0x10 ./class/audio/audio_device.o
- .debug_macro   0x00025566      0x213 ./common/tusb_fifo.o
- .debug_macro   0x00025779      0x268 ./device/usbd.o
- .debug_macro   0x000259e1       0x10 ./device/usbd.o
- .debug_macro   0x000259f1      0x250 ./device/usbd_control.o
- .debug_macro   0x00025c41      0x3ca ./portable/synopsys/dwc2/dcd_dwc2.o
- .debug_macro   0x0002600b     0x2368 ./portable/synopsys/dwc2/dcd_dwc2.o
- .debug_macro   0x00028373       0x56 ./portable/synopsys/dwc2/dcd_dwc2.o
- .debug_macro   0x000283c9       0x31 ./portable/synopsys/dwc2/dcd_dwc2.o
- .debug_macro   0x000283fa      0x3a2 ./portable/synopsys/dwc2/dwc2_common.o
- .debug_macro   0x0002879c      0x24c ./tusb.o
+ .debug_macro   0x000224ca      0x112 ./Core/Src/main.o
+ .debug_macro   0x000225dc       0x3b ./Core/Src/main.o
+ .debug_macro   0x00022617      0x211 ./Core/Src/main.o
+ .debug_macro   0x00022828       0x46 ./Core/Src/main.o
+ .debug_macro   0x0002286e       0x3c ./Core/Src/main.o
+ .debug_macro   0x000228aa       0xc7 ./Core/Src/main.o
+ .debug_macro   0x00022971       0x10 ./Core/Src/main.o
+ .debug_macro   0x00022981       0x28 ./Core/Src/main.o
+ .debug_macro   0x000229a9       0x25 ./Core/Src/main.o
+ .debug_macro   0x000229ce       0x25 ./Core/Src/main.o
+ .debug_macro   0x000229f3      0x44d ./Core/Src/main.o
+ .debug_macro   0x00022e40       0x6c ./Core/Src/main.o
+ .debug_macro   0x00022eac       0x3e ./Core/Src/main.o
+ .debug_macro   0x00022eea       0x20 ./Core/Src/main.o
+ .debug_macro   0x00022f0a      0x1fc ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_macro   0x00023106      0x3cd ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x000234d3      0x1ed ./Core/Src/system_stm32f4xx.o
+ .debug_macro   0x000236c0      0x25d ./Core/Src/usb_descriptors.o
+ .debug_macro   0x0002391d       0x89 ./Core/Src/usb_descriptors.o
+ .debug_macro   0x000239a6      0x119 ./Core/Src/usb_descriptors.o
+ .debug_macro   0x00023abf      0x24d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_macro   0x00023d0c      0x1ed ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_macro   0x00023ef9      0x1f3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_macro   0x000240ec      0x1f3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_macro   0x000242df      0x1f5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.o
+ .debug_macro   0x000244d4      0x1ed ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.o
+ .debug_macro   0x000246c1      0x1f9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o
+ .debug_macro   0x000248ba      0x211 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_macro   0x00024acb      0x1ed ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_macro   0x00024cb8      0x1ed ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o
+ .debug_macro   0x00024ea5      0x23e ./class/audio/audio_device.o
+ .debug_macro   0x000250e3      0x447 ./class/audio/audio_device.o
+ .debug_macro   0x0002552a       0x2e ./class/audio/audio_device.o
+ .debug_macro   0x00025558       0x10 ./class/audio/audio_device.o
+ .debug_macro   0x00025568      0x213 ./common/tusb_fifo.o
+ .debug_macro   0x0002577b      0x268 ./device/usbd.o
+ .debug_macro   0x000259e3       0x10 ./device/usbd.o
+ .debug_macro   0x000259f3      0x250 ./device/usbd_control.o
+ .debug_macro   0x00025c43      0x3ca ./portable/synopsys/dwc2/dcd_dwc2.o
+ .debug_macro   0x0002600d     0x2368 ./portable/synopsys/dwc2/dcd_dwc2.o
+ .debug_macro   0x00028375       0x56 ./portable/synopsys/dwc2/dcd_dwc2.o
+ .debug_macro   0x000283cb       0x31 ./portable/synopsys/dwc2/dcd_dwc2.o
+ .debug_macro   0x000283fc      0x3a2 ./portable/synopsys/dwc2/dwc2_common.o
+ .debug_macro   0x0002879e      0x24c ./tusb.o
 
-.debug_line     0x00000000    0x169cb
+.debug_line     0x00000000    0x169b6
  .debug_line    0x00000000      0xcf0 ./Core/Src/main.o
  .debug_line    0x00000cf0      0x876 ./Core/Src/stm32f4xx_hal_msp.o
  .debug_line    0x00001566      0xc18 ./Core/Src/stm32f4xx_it.o
  .debug_line    0x0000217e      0x7eb ./Core/Src/system_stm32f4xx.o
- .debug_line    0x00002969      0x8c5 ./Core/Src/usb_descriptors.o
- .debug_line    0x0000322e       0x7a ./Core/Startup/startup_stm32f429zitx.o
- .debug_line    0x000032a8      0xa9d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_line    0x00003d45      0xd37 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_line    0x00004a7c      0xfd3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_line    0x00005a4f      0xbe7 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_line    0x00006636     0x13bf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.o
- .debug_line    0x000079f5     0x12bf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.o
- .debug_line    0x00008cb4     0x14b2 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o
- .debug_line    0x0000a166      0xe76 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_line    0x0000afdc      0xcbf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_line    0x0000bc9b     0x1d9b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o
- .debug_line    0x0000da36     0x1cef ./class/audio/audio_device.o
- .debug_line    0x0000f725      0xfd3 ./common/tusb_fifo.o
- .debug_line    0x000106f8     0x1d66 ./device/usbd.o
- .debug_line    0x0001245e      0xa92 ./device/usbd_control.o
- .debug_line    0x00012ef0     0x1de3 ./portable/synopsys/dwc2/dcd_dwc2.o
- .debug_line    0x00014cd3      0xdd0 ./portable/synopsys/dwc2/dwc2_common.o
- .debug_line    0x00015aa3      0xf28 ./tusb.o
+ .debug_line    0x00002969      0x8b0 ./Core/Src/usb_descriptors.o
+ .debug_line    0x00003219       0x7a ./Core/Startup/startup_stm32f429zitx.o
+ .debug_line    0x00003293      0xa9d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_line    0x00003d30      0xd37 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_line    0x00004a67      0xfd3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_line    0x00005a3a      0xbe7 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_line    0x00006621     0x13bf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.o
+ .debug_line    0x000079e0     0x12bf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.o
+ .debug_line    0x00008c9f     0x14b2 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o
+ .debug_line    0x0000a151      0xe76 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_line    0x0000afc7      0xcbf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_line    0x0000bc86     0x1d9b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o
+ .debug_line    0x0000da21     0x1cef ./class/audio/audio_device.o
+ .debug_line    0x0000f710      0xfd3 ./common/tusb_fifo.o
+ .debug_line    0x000106e3     0x1d66 ./device/usbd.o
+ .debug_line    0x00012449      0xa92 ./device/usbd_control.o
+ .debug_line    0x00012edb     0x1de3 ./portable/synopsys/dwc2/dcd_dwc2.o
+ .debug_line    0x00014cbe      0xdd0 ./portable/synopsys/dwc2/dwc2_common.o
+ .debug_line    0x00015a8e      0xf28 ./tusb.o
 
-.debug_str      0x00000000    0xf3b8d
- .debug_str     0x00000000    0xf3b8d ./Core/Src/main.o
-                              0xe27ee (size before relaxing)
- .debug_str     0x000f3b8d    0xcde8e ./Core/Src/stm32f4xx_hal_msp.o
- .debug_str     0x000f3b8d    0xe193f ./Core/Src/stm32f4xx_it.o
- .debug_str     0x000f3b8d    0xccae1 ./Core/Src/system_stm32f4xx.o
- .debug_str     0x000f3b8d    0x19c0e ./Core/Src/usb_descriptors.o
- .debug_str     0x000f3b8d       0x88 ./Core/Startup/startup_stm32f429zitx.o
- .debug_str     0x000f3b8d    0xcd704 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_str     0x000f3b8d    0xcd432 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_str     0x000f3b8d    0xccee8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_str     0x000f3b8d    0xccc5c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_str     0x000f3b8d    0xcd0bf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.o
- .debug_str     0x000f3b8d    0xccfc1 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.o
- .debug_str     0x000f3b8d    0xcd5ac ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o
- .debug_str     0x000f3b8d    0xccf15 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_str     0x000f3b8d    0xcccdc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_str     0x000f3b8d    0xcd487 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o
- .debug_str     0x000f3b8d    0x1a733 ./class/audio/audio_device.o
- .debug_str     0x000f3b8d     0xfc98 ./common/tusb_fifo.o
- .debug_str     0x000f3b8d    0x1a103 ./device/usbd.o
- .debug_str     0x000f3b8d    0x18d68 ./device/usbd_control.o
- .debug_str     0x000f3b8d    0xeddb5 ./portable/synopsys/dwc2/dcd_dwc2.o
- .debug_str     0x000f3b8d    0xe4de5 ./portable/synopsys/dwc2/dwc2_common.o
- .debug_str     0x000f3b8d    0x193b0 ./tusb.o
+.debug_str      0x00000000    0xf39d3
+ .debug_str     0x00000000    0xf39d3 ./Core/Src/main.o
+                              0xe2634 (size before relaxing)
+ .debug_str     0x000f39d3    0xcde8e ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_str     0x000f39d3    0xe1785 ./Core/Src/stm32f4xx_it.o
+ .debug_str     0x000f39d3    0xccae1 ./Core/Src/system_stm32f4xx.o
+ .debug_str     0x000f39d3    0x19a54 ./Core/Src/usb_descriptors.o
+ .debug_str     0x000f39d3       0x88 ./Core/Startup/startup_stm32f429zitx.o
+ .debug_str     0x000f39d3    0xcd704 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_str     0x000f39d3    0xcd432 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_str     0x000f39d3    0xccee8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_str     0x000f39d3    0xccc5c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_str     0x000f39d3    0xcd0bf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.o
+ .debug_str     0x000f39d3    0xccfc1 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.o
+ .debug_str     0x000f39d3    0xcd5ac ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o
+ .debug_str     0x000f39d3    0xccf15 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_str     0x000f39d3    0xcccdc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_str     0x000f39d3    0xcd487 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o
+ .debug_str     0x000f39d3    0x1a579 ./class/audio/audio_device.o
+ .debug_str     0x000f39d3     0xfade ./common/tusb_fifo.o
+ .debug_str     0x000f39d3    0x19f49 ./device/usbd.o
+ .debug_str     0x000f39d3    0x18bae ./device/usbd_control.o
+ .debug_str     0x000f39d3    0xedbfb ./portable/synopsys/dwc2/dcd_dwc2.o
+ .debug_str     0x000f39d3    0xe4c2b ./portable/synopsys/dwc2/dwc2_common.o
+ .debug_str     0x000f39d3    0x191f6 ./tusb.o
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 ./Core/Src/main.o

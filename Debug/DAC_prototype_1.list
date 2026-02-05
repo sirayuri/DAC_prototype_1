@@ -23,9 +23,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, DATA
   9 .ccmram       00000000  10000000  10000000  0000c040  2**0
                   CONTENTS
- 10 .bss          00001324  20000040  20000040  0000c040  2**2
+ 10 .bss          00002c24  20000040  20000040  0000c040  2**2
                   ALLOC
- 11 ._user_heap_stack 00000604  20001364  20001364  0000c040  2**0
+ 11 ._user_heap_stack 00000604  20002c64  20002c64  0000c040  2**0
                   ALLOC
  12 .ARM.attributes 00000030  00000000  00000000  0000c040  2**0
                   CONTENTS, READONLY
@@ -37,17 +37,17 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  16 .debug_rnglists 00000d83  00000000  00000000  0002abe0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_macro  000289e8  00000000  00000000  0002b963  2**0
+ 17 .debug_macro  000289ea  00000000  00000000  0002b963  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_line   000169cb  00000000  00000000  0005434b  2**0
+ 18 .debug_line   000169b6  00000000  00000000  0005434d  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_str    000f3b8d  00000000  00000000  0006ad16  2**0
+ 19 .debug_str    000f39d3  00000000  00000000  0006ad03  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .comment      00000043  00000000  00000000  0015e8a3  2**0
+ 20 .comment      00000043  00000000  00000000  0015e6d6  2**0
                   CONTENTS, READONLY
- 21 .debug_frame  0000463c  00000000  00000000  0015e8e8  2**2
+ 21 .debug_frame  0000463c  00000000  00000000  0015e71c  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line_str 0000006c  00000000  00000000  00162f24  2**0
+ 22 .debug_line_str 0000006c  00000000  00000000  00162d58  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -2046,7 +2046,7 @@ LoopFillZerobss:
   ldr r2, =_sbss
  8000dcc:	20000040 	.word	0x20000040
   ldr r4, =_ebss
- 8000dd0:	20001364 	.word	0x20001364
+ 8000dd0:	20002c64 	.word	0x20002c64
 
 08000dd4 <ADC_IRQHandler>:
  * @retval None       
@@ -10278,7 +10278,7 @@ uint8_t tud_audio_n_version(uint8_t func_id) {
  8003bfc:	f85d 7b04 	ldr.w	r7, [sp], #4
  8003c00:	4770      	bx	lr
  8003c02:	bf00      	nop
- 8003c04:	200010f0 	.word	0x200010f0
+ 8003c04:	200029f0 	.word	0x200029f0
 
 08003c08 <audiod_init>:
 
@@ -10341,7 +10341,7 @@ void audiod_init(void) {
  8003c4e:	683b      	ldr	r3, [r7, #0]
  8003c50:	f103 0030 	add.w	r0, r3, #48	@ 0x30
  8003c54:	2301      	movs	r3, #1
- 8003c56:	f44f 62e0 	mov.w	r2, #1792	@ 0x700
+ 8003c56:	f44f 5200 	mov.w	r2, #8192	@ 0x2000
  8003c5a:	4909      	ldr	r1, [pc, #36]	@ (8003c80 <audiod_init+0x78>)
  8003c5c:	f001 fc0e 	bl	800547c <tu_fifo_config>
         break;
@@ -10364,7 +10364,7 @@ void audiod_init(void) {
  8003c72:	3708      	adds	r7, #8
  8003c74:	46bd      	mov	sp, r7
  8003c76:	bd80      	pop	{r7, pc}
- 8003c78:	200010f0 	.word	0x200010f0
+ 8003c78:	200029f0 	.word	0x200029f0
  8003c7c:	20000630 	.word	0x20000630
  8003c80:	200009b0 	.word	0x200009b0
 
@@ -10439,7 +10439,7 @@ void audiod_reset(uint8_t rhport) {
  8003ce2:	3710      	adds	r7, #16
  8003ce4:	46bd      	mov	sp, r7
  8003ce6:	bd80      	pop	{r7, pc}
- 8003ce8:	200010f0 	.word	0x200010f0
+ 8003ce8:	200029f0 	.word	0x200029f0
 
 08003cec <audiod_open>:
 
@@ -11022,7 +11022,7 @@ TU_ATTR_ALWAYS_INLINE static inline uint16_t tu_edpt_packet_size(tusb_desc_endpo
  8004134:	e006      	b.n	8004144 <audiod_open+0x458>
  8004136:	bf00      	nop
  8004138:	e000edf0 	.word	0xe000edf0
- 800413c:	200010f0 	.word	0x200010f0
+ 800413c:	200029f0 	.word	0x200029f0
  8004140:	f8b7 30ee 	ldrh.w	r3, [r7, #238]	@ 0xee
  8004144:	f8a7 30ee 	strh.w	r3, [r7, #238]	@ 0xee
             }
@@ -11471,7 +11471,7 @@ TU_ATTR_ALWAYS_INLINE static inline uint16_t tu_edpt_packet_size(tusb_desc_endpo
  80044aa:	46bd      	mov	sp, r7
  80044ac:	bd80      	pop	{r7, pc}
  80044ae:	bf00      	nop
- 80044b0:	200010f0 	.word	0x200010f0
+ 80044b0:	200029f0 	.word	0x200029f0
  80044b4:	e000edf0 	.word	0xe000edf0
 
 080044b8 <audiod_get_interface>:
@@ -11595,7 +11595,7 @@ TU_ATTR_ALWAYS_INLINE static inline uint8_t tu_u16_low (uint16_t ui16) { return 
  8004576:	3710      	adds	r7, #16
  8004578:	46bd      	mov	sp, r7
  800457a:	bd80      	pop	{r7, pc}
- 800457c:	200010f0 	.word	0x200010f0
+ 800457c:	200029f0 	.word	0x200029f0
 
 08004580 <audiod_set_interface>:
 
@@ -12018,7 +12018,7 @@ static bool audiod_set_interface(uint8_t rhport, tusb_control_request_t const *p
  8004832:	2300      	movs	r3, #0
  8004834:	e087      	b.n	8004946 <audiod_set_interface+0x3c6>
  8004836:	bf00      	nop
- 8004838:	200010f0 	.word	0x200010f0
+ 8004838:	200029f0 	.word	0x200029f0
  800483c:	e000edf0 	.word	0xe000edf0
  8004840:	f897 3043 	ldrb.w	r3, [r7, #67]	@ 0x43
  8004844:	f887 3023 	strb.w	r3, [r7, #35]	@ 0x23
@@ -12497,8 +12497,8 @@ static bool audiod_control_complete(uint8_t rhport, tusb_control_request_t const
  8004b46:	3720      	adds	r7, #32
  8004b48:	46bd      	mov	sp, r7
  8004b4a:	bd80      	pop	{r7, pc}
- 8004b4c:	200010f0 	.word	0x200010f0
- 8004b50:	200010b0 	.word	0x200010b0
+ 8004b4c:	200029f0 	.word	0x200029f0
+ 8004b50:	200029b0 	.word	0x200029b0
  8004b54:	e000edf0 	.word	0xe000edf0
 
 08004b58 <audiod_control_request>:
@@ -12777,7 +12777,7 @@ static bool audiod_control_request(uint8_t rhport, tusb_control_request_t const 
  8004d04:	46bd      	mov	sp, r7
  8004d06:	bd80      	pop	{r7, pc}
  8004d08:	e000edf0 	.word	0xe000edf0
- 8004d0c:	200010b0 	.word	0x200010b0
+ 8004d0c:	200029b0 	.word	0x200029b0
 
 08004d10 <audiod_control_xfer_cb>:
 
@@ -12896,7 +12896,7 @@ bool audiod_xfer_cb(uint8_t rhport, uint8_t ep_addr, xfer_result_t result, uint3
  8004da6:	46bd      	mov	sp, r7
  8004da8:	bd80      	pop	{r7, pc}
  8004daa:	bf00      	nop
- 8004dac:	200010f0 	.word	0x200010f0
+ 8004dac:	200029f0 	.word	0x200029f0
 
 08004db0 <audiod_xfer_isr>:
 
@@ -12994,7 +12994,7 @@ bool audiod_xfer_isr(uint8_t rhport, uint8_t ep_addr, xfer_result_t result, uint
  8004e22:	3710      	adds	r7, #16
  8004e24:	46bd      	mov	sp, r7
  8004e26:	bd80      	pop	{r7, pc}
- 8004e28:	200010f0 	.word	0x200010f0
+ 8004e28:	200029f0 	.word	0x200029f0
 
 08004e2c <audiod_sof_isr>:
   audio->feedback.value = feedback;
@@ -13166,7 +13166,7 @@ static bool audiod_verify_entity_exists(uint8_t itf, uint8_t entityID, uint8_t *
  8004f2c:	46bd      	mov	sp, r7
  8004f2e:	f85d 7b04 	ldr.w	r7, [sp], #4
  8004f32:	4770      	bx	lr
- 8004f34:	200010f0 	.word	0x200010f0
+ 8004f34:	200029f0 	.word	0x200029f0
 
 08004f38 <audiod_verify_itf_exists>:
 
@@ -13289,7 +13289,7 @@ static bool audiod_verify_itf_exists(uint8_t itf, uint8_t *func_id) {
  8004ff0:	46bd      	mov	sp, r7
  8004ff2:	f85d 7b04 	ldr.w	r7, [sp], #4
  8004ff6:	4770      	bx	lr
- 8004ff8:	200010f0 	.word	0x200010f0
+ 8004ff8:	200029f0 	.word	0x200029f0
 
 08004ffc <audiod_verify_ep_exists>:
 
@@ -13415,7 +13415,7 @@ static bool audiod_verify_ep_exists(uint8_t ep, uint8_t *func_id) {
  80050b4:	46bd      	mov	sp, r7
  80050b6:	f85d 7b04 	ldr.w	r7, [sp], #4
  80050ba:	4770      	bx	lr
- 80050bc:	200010f0 	.word	0x200010f0
+ 80050bc:	200029f0 	.word	0x200029f0
 
 080050c0 <audiod_parse_flow_control_params>:
 
@@ -13948,7 +13948,7 @@ TU_ATTR_ALWAYS_INLINE static inline uint16_t tu_min16 (uint16_t x, uint16_t y) {
  8005444:	f85d 7b04 	ldr.w	r7, [sp], #4
  8005448:	4770      	bx	lr
  800544a:	bf00      	nop
- 800544c:	20001138 	.word	0x20001138
+ 800544c:	20002a38 	.word	0x20002a38
 
 08005450 <audiod_get_audio_fct_idx>:
 
@@ -13974,7 +13974,7 @@ static inline uint8_t audiod_get_audio_fct_idx(audiod_function_t *audio) {
  800546c:	46bd      	mov	sp, r7
  800546e:	f85d 7b04 	ldr.w	r7, [sp], #4
  8005472:	4770      	bx	lr
- 8005474:	200010f0 	.word	0x200010f0
+ 8005474:	200029f0 	.word	0x200029f0
  8005478:	38e38e39 	.word	0x38e38e39
 
 0800547c <tu_fifo_config>:
@@ -15636,7 +15636,7 @@ tusb_speed_t tud_speed_get(void) {
  8005e30:	f85d 7b04 	ldr.w	r7, [sp], #4
  8005e34:	4770      	bx	lr
  8005e36:	bf00      	nop
- 8005e38:	2000113c 	.word	0x2000113c
+ 8005e38:	20002a3c 	.word	0x20002a3c
 
 08005e3c <tud_inited>:
 
@@ -15907,13 +15907,13 @@ TU_ATTR_ALWAYS_INLINE static inline osal_queue_t osal_queue_create(osal_queue_de
  8005fdc:	46bd      	mov	sp, r7
  8005fde:	bd80      	pop	{r7, pc}
  8005fe0:	e000edf0 	.word	0xe000edf0
- 8005fe4:	2000113c 	.word	0x2000113c
- 8005fe8:	2000116b 	.word	0x2000116b
+ 8005fe4:	20002a3c 	.word	0x20002a3c
+ 8005fe8:	20002a6b 	.word	0x20002a6b
  8005fec:	20000024 	.word	0x20000024
  8005ff0:	2000002c 	.word	0x2000002c
- 8005ff4:	20001234 	.word	0x20001234
- 8005ff8:	20001170 	.word	0x20001170
- 8005ffc:	2000116c 	.word	0x2000116c
+ 8005ff4:	20002b34 	.word	0x20002b34
+ 8005ff8:	20002a70 	.word	0x20002a70
+ 8005ffc:	20002a6c 	.word	0x20002a6c
  8006000:	0800a354 	.word	0x0800a354
  8006004:	20000021 	.word	0x20000021
 
@@ -16033,13 +16033,13 @@ static void configuration_reset(uint8_t rhport) {
  80060be:	46bd      	mov	sp, r7
  80060c0:	bd80      	pop	{r7, pc}
  80060c2:	bf00      	nop
- 80060c4:	20001170 	.word	0x20001170
- 80060c8:	2000116c 	.word	0x2000116c
+ 80060c4:	20002a70 	.word	0x20002a70
+ 80060c8:	20002a6c 	.word	0x20002a6c
  80060cc:	0800a354 	.word	0x0800a354
  80060d0:	e000edf0 	.word	0xe000edf0
- 80060d4:	2000113c 	.word	0x2000113c
- 80060d8:	20001143 	.word	0x20001143
- 80060dc:	20001153 	.word	0x20001153
+ 80060d4:	20002a3c 	.word	0x20002a3c
+ 80060d8:	20002a43 	.word	0x20002a43
+ 80060dc:	20002a53 	.word	0x20002a53
 
 080060e0 <usbd_reset>:
 
@@ -16492,12 +16492,12 @@ TU_ATTR_ALWAYS_INLINE static inline bool osal_queue_receive(osal_queue_t qhdl, v
         break;
  80063dc:	e038      	b.n	8006450 <tud_task_ext+0x350>
  80063de:	bf00      	nop
- 80063e0:	20001234 	.word	0x20001234
- 80063e4:	2000113c 	.word	0x2000113c
- 80063e8:	2000116b 	.word	0x2000116b
+ 80063e0:	20002b34 	.word	0x20002b34
+ 80063e4:	20002a3c 	.word	0x20002a3c
+ 80063e8:	20002a6b 	.word	0x20002a6b
  80063ec:	e000edf0 	.word	0xe000edf0
- 80063f0:	20001170 	.word	0x20001170
- 80063f4:	2000116c 	.word	0x2000116c
+ 80063f0:	20002a70 	.word	0x20002a70
+ 80063f4:	20002a6c 	.word	0x20002a6c
  80063f8:	0800a354 	.word	0x0800a354
 
       case DCD_EVENT_SOF:
@@ -16590,7 +16590,7 @@ TU_ATTR_ALWAYS_INLINE static inline bool     tu_bit_test (uint32_t value, uint8_
  8006476:	46bd      	mov	sp, r7
  8006478:	bd90      	pop	{r4, r7, pc}
  800647a:	bf00      	nop
- 800647c:	2000113c 	.word	0x2000113c
+ 800647c:	20002a3c 	.word	0x20002a3c
  8006480:	e000edf0 	.word	0xe000edf0
 
 08006484 <invoke_class_control>:
@@ -17047,9 +17047,9 @@ TU_ATTR_ALWAYS_INLINE static inline uint8_t tu_u16_low (uint16_t ui16) { return 
  800676e:	bf00      	nop
  8006770:	e000edf0 	.word	0xe000edf0
  8006774:	08005de9 	.word	0x08005de9
- 8006778:	2000113c 	.word	0x2000113c
- 800677c:	20001170 	.word	0x20001170
- 8006780:	2000116c 	.word	0x2000116c
+ 8006778:	20002a3c 	.word	0x20002a3c
+ 800677c:	20002a70 	.word	0x20002a70
+ 8006780:	20002a6c 	.word	0x20002a6c
  8006784:	0800a354 	.word	0x0800a354
 
         case TUSB_REQ_GET_STATUS: {
@@ -17454,10 +17454,10 @@ TU_ATTR_ALWAYS_INLINE static inline uint8_t tu_u16_low (uint16_t ui16) { return 
           break;
  8006a1c:	e015      	b.n	8006a4a <process_control_request+0x596>
  8006a1e:	bf00      	nop
- 8006a20:	2000113c 	.word	0x2000113c
+ 8006a20:	20002a3c 	.word	0x20002a3c
  8006a24:	e000edf0 	.word	0xe000edf0
- 8006a28:	20001170 	.word	0x20001170
- 8006a2c:	2000116c 	.word	0x2000116c
+ 8006a28:	20002a70 	.word	0x20002a70
+ 8006a2c:	20002a6c 	.word	0x20002a6c
  8006a30:	0800a354 	.word	0x0800a354
 
           // Unknown/Unsupported request
@@ -17829,12 +17829,12 @@ static bool process_set_config(uint8_t rhport, uint8_t cfg_num) {
  8006ca4:	46bd      	mov	sp, r7
  8006ca6:	bd80      	pop	{r7, pc}
  8006ca8:	e000edf0 	.word	0xe000edf0
- 8006cac:	2000113c 	.word	0x2000113c
- 8006cb0:	20001170 	.word	0x20001170
- 8006cb4:	2000116c 	.word	0x2000116c
+ 8006cac:	20002a3c 	.word	0x20002a3c
+ 8006cb0:	20002a70 	.word	0x20002a70
+ 8006cb4:	20002a6c 	.word	0x20002a6c
  8006cb8:	0800a354 	.word	0x0800a354
- 8006cbc:	20001143 	.word	0x20001143
- 8006cc0:	20001153 	.word	0x20001153
+ 8006cbc:	20002a43 	.word	0x20002a43
+ 8006cc0:	20002a53 	.word	0x20002a53
 
 08006cc4 <process_get_descriptor>:
 
@@ -18384,11 +18384,11 @@ TU_ATTR_ALWAYS_INLINE static inline bool osal_queue_send(osal_queue_t qhdl, void
   return true;
  80070a8:	e00d      	b.n	80070c6 <dcd_event_handler+0x24e>
  80070aa:	bf00      	nop
- 80070ac:	2000113c 	.word	0x2000113c
- 80070b0:	20001170 	.word	0x20001170
- 80070b4:	2000116c 	.word	0x2000116c
+ 80070ac:	20002a3c 	.word	0x20002a3c
+ 80070b0:	20002a70 	.word	0x20002a70
+ 80070b4:	20002a6c 	.word	0x20002a6c
  80070b8:	0800a354 	.word	0x0800a354
- 80070bc:	20001234 	.word	0x20001234
+ 80070bc:	20002b34 	.word	0x20002b34
  80070c0:	e000edf0 	.word	0xe000edf0
   TU_ASSERT(osal_queue_send(_usbd_q, event, in_isr));
  80070c4:	bf00      	nop
@@ -18720,12 +18720,12 @@ TU_ATTR_ALWAYS_INLINE static inline bool     tu_bit_test (uint32_t value, uint8_
  800735e:	bf00      	nop
  8007360:	e00f      	b.n	8007382 <dcd_event_handler+0x50a>
  8007362:	bf00      	nop
- 8007364:	2000113c 	.word	0x2000113c
- 8007368:	20001234 	.word	0x20001234
+ 8007364:	20002a3c 	.word	0x20002a3c
+ 8007368:	20002b34 	.word	0x20002b34
  800736c:	e000edf0 	.word	0xe000edf0
- 8007370:	2000116b 	.word	0x2000116b
- 8007374:	20001170 	.word	0x20001170
- 8007378:	2000116c 	.word	0x2000116c
+ 8007370:	20002a6b 	.word	0x20002a6b
+ 8007374:	20002a70 	.word	0x20002a70
+ 8007378:	20002a6c 	.word	0x20002a6c
  800737c:	0800a354 	.word	0x0800a354
       break;
  8007380:	bf00      	nop
@@ -18825,7 +18825,7 @@ TU_ATTR_ALWAYS_INLINE static inline bool     tu_bit_test (uint32_t value, uint8_
  800743a:	37bc      	adds	r7, #188	@ 0xbc
  800743c:	46bd      	mov	sp, r7
  800743e:	bd90      	pop	{r4, r7, pc}
- 8007440:	20001234 	.word	0x20001234
+ 8007440:	20002b34 	.word	0x20002b34
  8007444:	e000edf0 	.word	0xe000edf0
 
 08007448 <usbd_int_set>:
@@ -19039,7 +19039,7 @@ TU_ATTR_ALWAYS_INLINE static inline bool tu_edpt_validate(const tusb_desc_endpoi
  800758e:	bd80      	pop	{r7, pc}
  8007590:	20000021 	.word	0x20000021
  8007594:	e000edf0 	.word	0xe000edf0
- 8007598:	2000113c 	.word	0x2000113c
+ 8007598:	20002a3c 	.word	0x20002a3c
 
 0800759c <usbd_edpt_xfer>:
   tu_edpt_state_t* ep_state = &_usbd_dev.ep_status[epnum][dir];
@@ -19180,7 +19180,7 @@ bool usbd_edpt_xfer(uint8_t rhport, uint8_t ep_addr, uint8_t* buffer, uint16_t t
  8007680:	46bd      	mov	sp, r7
  8007682:	bd80      	pop	{r7, pc}
  8007684:	20000021 	.word	0x20000021
- 8007688:	2000113c 	.word	0x2000113c
+ 8007688:	20002a3c 	.word	0x20002a3c
  800768c:	e000edf0 	.word	0xe000edf0
 
 08007690 <usbd_edpt_xfer_fifo>:
@@ -19328,7 +19328,7 @@ bool usbd_edpt_xfer_fifo(uint8_t rhport, uint8_t ep_addr, tu_fifo_t* ff, uint16_
  8007774:	46bd      	mov	sp, r7
  8007776:	bd80      	pop	{r7, pc}
  8007778:	20000021 	.word	0x20000021
- 800777c:	2000113c 	.word	0x2000113c
+ 800777c:	20002a3c 	.word	0x20002a3c
  8007780:	e000edf0 	.word	0xe000edf0
 
 08007784 <usbd_edpt_stall>:
@@ -19404,7 +19404,7 @@ void usbd_edpt_stall(uint8_t rhport, uint8_t ep_addr) {
  80077f4:	46bd      	mov	sp, r7
  80077f6:	bd80      	pop	{r7, pc}
  80077f8:	20000021 	.word	0x20000021
- 80077fc:	2000113c 	.word	0x2000113c
+ 80077fc:	20002a3c 	.word	0x20002a3c
 
 08007800 <usbd_edpt_clear_stall>:
 
@@ -19475,7 +19475,7 @@ void usbd_edpt_clear_stall(uint8_t rhport, uint8_t ep_addr) {
  8007870:	46bd      	mov	sp, r7
  8007872:	bd80      	pop	{r7, pc}
  8007874:	20000021 	.word	0x20000021
- 8007878:	2000113c 	.word	0x2000113c
+ 8007878:	20002a3c 	.word	0x20002a3c
 
 0800787c <usbd_edpt_stalled>:
 
@@ -19530,7 +19530,7 @@ bool usbd_edpt_stalled(uint8_t rhport, uint8_t ep_addr) {
  80078cc:	f85d 7b04 	ldr.w	r7, [sp], #4
  80078d0:	4770      	bx	lr
  80078d2:	bf00      	nop
- 80078d4:	2000113c 	.word	0x2000113c
+ 80078d4:	20002a3c 	.word	0x20002a3c
 
 080078d8 <usbd_edpt_iso_alloc>:
   if(!_usbd_dev.sof_consumer != !consumer_old) {
@@ -19713,7 +19713,7 @@ bool usbd_edpt_iso_activate(uint8_t rhport, tusb_desc_endpoint_t const* desc_ep)
  8007a0a:	bf00      	nop
  8007a0c:	20000021 	.word	0x20000021
  8007a10:	e000edf0 	.word	0xe000edf0
- 8007a14:	2000113c 	.word	0x2000113c
+ 8007a14:	20002a3c 	.word	0x20002a3c
 
 08007a18 <dcd_edpt0_status_complete>:
 #include "device/usbd_pvt.h"
@@ -19817,7 +19817,7 @@ bool tud_control_status(uint8_t rhport, const tusb_control_request_t* request) {
  8007aa2:	3708      	adds	r7, #8
  8007aa4:	46bd      	mov	sp, r7
  8007aa6:	bd80      	pop	{r7, pc}
- 8007aa8:	20001238 	.word	0x20001238
+ 8007aa8:	20002b38 	.word	0x20002b38
 
 08007aac <data_stage_xact>:
 
@@ -19938,8 +19938,8 @@ TU_ATTR_ALWAYS_INLINE static inline uint16_t tu_min16 (uint16_t x, uint16_t y) {
  8007b66:	3724      	adds	r7, #36	@ 0x24
  8007b68:	46bd      	mov	sp, r7
  8007b6a:	bd90      	pop	{r4, r7, pc}
- 8007b6c:	20001238 	.word	0x20001238
- 8007b70:	2000124c 	.word	0x2000124c
+ 8007b6c:	20002b38 	.word	0x20002b38
+ 8007b70:	20002b4c 	.word	0x20002b4c
 
 08007b74 <tud_control_xfer>:
 
@@ -20064,7 +20064,7 @@ TU_ATTR_ALWAYS_INLINE static inline uint16_t tu_min16 (uint16_t x, uint16_t y) {
  8007c46:	46bd      	mov	sp, r7
  8007c48:	bd80      	pop	{r7, pc}
  8007c4a:	bf00      	nop
- 8007c4c:	20001238 	.word	0x20001238
+ 8007c4c:	20002b38 	.word	0x20002b38
  8007c50:	e000edf0 	.word	0xe000edf0
 
 08007c54 <usbd_control_reset>:
@@ -20085,7 +20085,7 @@ void usbd_control_reset(void) {
  8007c62:	bf00      	nop
  8007c64:	bd80      	pop	{r7, pc}
  8007c66:	bf00      	nop
- 8007c68:	20001238 	.word	0x20001238
+ 8007c68:	20002b38 	.word	0x20002b38
 
 08007c6c <usbd_control_set_complete_callback>:
 
@@ -20106,7 +20106,7 @@ void usbd_control_set_complete_callback(usbd_control_xfer_cb_t fp) {
  8007c80:	f85d 7b04 	ldr.w	r7, [sp], #4
  8007c84:	4770      	bx	lr
  8007c86:	bf00      	nop
- 8007c88:	20001238 	.word	0x20001238
+ 8007c88:	20002b38 	.word	0x20002b38
 
 08007c8c <usbd_control_set_request>:
 
@@ -20140,7 +20140,7 @@ void usbd_control_set_request(const tusb_control_request_t* request) {
  8007cb4:	46bd      	mov	sp, r7
  8007cb6:	f85d 7b04 	ldr.w	r7, [sp], #4
  8007cba:	4770      	bx	lr
- 8007cbc:	20001238 	.word	0x20001238
+ 8007cbc:	20002b38 	.word	0x20002b38
 
 08007cc0 <usbd_control_xfer_cb>:
 
@@ -20368,9 +20368,9 @@ bool usbd_control_xfer_cb(uint8_t rhport, uint8_t ep_addr, xfer_result_t result,
  8007e16:	46bd      	mov	sp, r7
  8007e18:	bd80      	pop	{r7, pc}
  8007e1a:	bf00      	nop
- 8007e1c:	20001238 	.word	0x20001238
+ 8007e1c:	20002b38 	.word	0x20002b38
  8007e20:	e000edf0 	.word	0xe000edf0
- 8007e24:	2000124c 	.word	0x2000124c
+ 8007e24:	20002b4c 	.word	0x20002b4c
 
 08007e28 <__NVIC_EnableIRQ>:
 {
@@ -20523,7 +20523,7 @@ TU_ATTR_ALWAYS_INLINE static inline dwc2_regs_t* DWC2_REG(uint8_t rhport) {
  8007f1c:	0800a378 	.word	0x0800a378
  8007f20:	4f543009 	.word	0x4f543009
  8007f24:	20080008 	.word	0x20080008
- 8007f28:	20001354 	.word	0x20001354
+ 8007f28:	20002c54 	.word	0x20002c54
 
 08007f2c <dfifo_alloc>:
 
@@ -20805,8 +20805,8 @@ TU_ATTR_ALWAYS_INLINE static inline uint32_t tu_div_ceil(uint32_t v, uint32_t d)
  8008102:	bf00      	nop
  8008104:	0800a378 	.word	0x0800a378
  8008108:	e000edf0 	.word	0xe000edf0
- 800810c:	2000134c 	.word	0x2000134c
- 8008110:	2000135c 	.word	0x2000135c
+ 800810c:	20002c4c 	.word	0x20002c4c
+ 8008110:	20002c5c 	.word	0x20002c5c
 
 08008114 <dfifo_device_init>:
 
@@ -20918,7 +20918,7 @@ static void dfifo_device_init(uint8_t rhport) {
  80081bc:	bd80      	pop	{r7, pc}
  80081be:	bf00      	nop
  80081c0:	0800a378 	.word	0x0800a378
- 80081c4:	2000134c 	.word	0x2000134c
+ 80081c4:	20002c4c 	.word	0x20002c4c
 
 080081c8 <edpt_activate>:
 
@@ -21110,7 +21110,7 @@ static void edpt_activate(uint8_t rhport, const tusb_desc_endpoint_t* p_endpoint
  800831e:	f85d 7b04 	ldr.w	r7, [sp], #4
  8008322:	4770      	bx	lr
  8008324:	0800a378 	.word	0x0800a378
- 8008328:	2000128c 	.word	0x2000128c
+ 8008328:	20002b8c 	.word	0x20002b8c
 
 0800832c <edpt_disable>:
 
@@ -21606,8 +21606,8 @@ TU_ATTR_ALWAYS_INLINE static inline uint32_t tu_div_ceil(uint32_t v, uint32_t d)
  800865c:	46bd      	mov	sp, r7
  800865e:	bd80      	pop	{r7, pc}
  8008660:	0800a378 	.word	0x0800a378
- 8008664:	2000128c 	.word	0x2000128c
- 8008668:	2000134c 	.word	0x2000134c
+ 8008664:	20002b8c 	.word	0x20002b8c
+ 8008668:	20002c4c 	.word	0x20002c4c
 
 0800866c <dcd_init>:
   const tud_configure_param_t* const cfg = (const tud_configure_param_t*) cfg_param;
@@ -21794,7 +21794,7 @@ bool dcd_init(uint8_t rhport, const tusb_rhport_init_t* rh_init) {
  800878c:	bd80      	pop	{r7, pc}
  800878e:	bf00      	nop
  8008790:	0800a378 	.word	0x0800a378
- 8008794:	2000134c 	.word	0x2000134c
+ 8008794:	20002c4c 	.word	0x20002c4c
  8008798:	e000edf0 	.word	0xe000edf0
  800879c:	80003004 	.word	0x80003004
 
@@ -22130,7 +22130,7 @@ void dcd_sof_enable(uint8_t rhport, bool en) {
  800899c:	4770      	bx	lr
  800899e:	bf00      	nop
  80089a0:	0800a378 	.word	0x0800a378
- 80089a4:	2000134c 	.word	0x2000134c
+ 80089a4:	20002c4c 	.word	0x20002c4c
 
 080089a8 <dcd_edpt_open>:
 
@@ -22365,8 +22365,8 @@ TU_ATTR_ALWAYS_INLINE static inline void dfifo_flush_rx(dwc2_regs_t* dwc2) {
  8008b3c:	46bd      	mov	sp, r7
  8008b3e:	bd80      	pop	{r7, pc}
  8008b40:	0800a378 	.word	0x0800a378
- 8008b44:	2000134c 	.word	0x2000134c
- 8008b48:	2000128c 	.word	0x2000128c
+ 8008b44:	20002c4c 	.word	0x20002c4c
+ 8008b48:	20002b8c 	.word	0x20002b8c
 
 08008b4c <dcd_edpt_iso_alloc>:
 
@@ -22554,8 +22554,8 @@ bool dcd_edpt_xfer(uint8_t rhport, uint8_t ep_addr, uint8_t* buffer, uint16_t to
  8008c6e:	46bd      	mov	sp, r7
  8008c70:	bd80      	pop	{r7, pc}
  8008c72:	bf00      	nop
- 8008c74:	2000128c 	.word	0x2000128c
- 8008c78:	2000134c 	.word	0x2000134c
+ 8008c74:	20002b8c 	.word	0x20002b8c
+ 8008c78:	20002c4c 	.word	0x20002c4c
 
 08008c7c <dcd_edpt_xfer_fifo>:
 
@@ -22662,7 +22662,7 @@ bool dcd_edpt_xfer_fifo(uint8_t rhport, uint8_t ep_addr, tu_fifo_t* ff, uint16_t
  8008d0e:	46bd      	mov	sp, r7
  8008d10:	bd80      	pop	{r7, pc}
  8008d12:	bf00      	nop
- 8008d14:	2000128c 	.word	0x2000128c
+ 8008d14:	20002b8c 	.word	0x20002b8c
 
 08008d18 <dcd_edpt_stall>:
 
@@ -23102,8 +23102,8 @@ static void handle_bus_reset(uint8_t rhport) {
  8009004:	bd80      	pop	{r7, pc}
  8009006:	bf00      	nop
  8009008:	0800a378 	.word	0x0800a378
- 800900c:	2000128c 	.word	0x2000128c
- 8009010:	2000134c 	.word	0x2000134c
+ 800900c:	20002b8c 	.word	0x20002b8c
+ 8009010:	20002c4c 	.word	0x20002c4c
 
 08009014 <handle_enum_done>:
 
@@ -23373,7 +23373,7 @@ TU_ATTR_ALWAYS_INLINE static inline uint16_t tu_min16 (uint16_t x, uint16_t y) {
  800919e:	3740      	adds	r7, #64	@ 0x40
  80091a0:	46bd      	mov	sp, r7
  80091a2:	bd80      	pop	{r7, pc}
- 80091a4:	2000128c 	.word	0x2000128c
+ 80091a4:	20002b8c 	.word	0x20002b8c
  80091a8:	0003fffc 	.word	0x0003fffc
 
 080091ac <handle_rxflvl_irq>:
@@ -23597,9 +23597,9 @@ static void handle_rxflvl_irq(uint8_t rhport) {
  8009304:	bd80      	pop	{r7, pc}
  8009306:	bf00      	nop
  8009308:	0800a378 	.word	0x0800a378
- 800930c:	20001354 	.word	0x20001354
- 8009310:	2000128c 	.word	0x2000128c
- 8009314:	2000134c 	.word	0x2000134c
+ 800930c:	20002c54 	.word	0x20002c54
+ 8009310:	20002b8c 	.word	0x20002b8c
+ 8009314:	20002c4c 	.word	0x20002c4c
 
 08009318 <handle_epout_slave>:
 
@@ -23781,9 +23781,9 @@ TU_ATTR_ALWAYS_INLINE static inline void dcd_event_xfer_complete (uint8_t rhport
  8009448:	46bd      	mov	sp, r7
  800944a:	bd80      	pop	{r7, pc}
  800944c:	0800a378 	.word	0x0800a378
- 8009450:	20001354 	.word	0x20001354
- 8009454:	2000128c 	.word	0x2000128c
- 8009458:	2000134c 	.word	0x2000134c
+ 8009450:	20002c54 	.word	0x20002c54
+ 8009454:	20002b8c 	.word	0x20002b8c
+ 8009458:	20002c4c 	.word	0x20002c4c
 
 0800945c <handle_epin_slave>:
 
@@ -23953,8 +23953,8 @@ TU_ATTR_ALWAYS_INLINE static inline bool     tu_bit_test (uint32_t value, uint8_
  800958c:	bd80      	pop	{r7, pc}
  800958e:	bf00      	nop
  8009590:	0800a378 	.word	0x0800a378
- 8009594:	2000128c 	.word	0x2000128c
- 8009598:	2000134c 	.word	0x2000134c
+ 8009594:	20002b8c 	.word	0x20002b8c
+ 8009598:	20002c4c 	.word	0x20002c4c
 
 0800959c <handle_ep_irq>:
     }
@@ -24358,7 +24358,7 @@ TU_ATTR_ALWAYS_INLINE static inline uint32_t tu_div_ceil(uint32_t v, uint32_t d)
  8009874:	bd80      	pop	{r7, pc}
  8009876:	bf00      	nop
  8009878:	0800a378 	.word	0x0800a378
- 800987c:	2000128c 	.word	0x2000128c
+ 800987c:	20002b8c 	.word	0x20002b8c
 
 08009880 <dcd_int_handler>:
      GINTSTS:    OEPInt    IEPInt | USBReset | EnumDone | USBSusp | WkUpInt | OTGInt | SOF | RXFLVL
@@ -24722,7 +24722,7 @@ TU_ATTR_ALWAYS_INLINE static inline void dcd_event_sof(uint8_t rhport, uint32_t 
  8009af0:	46bd      	mov	sp, r7
  8009af2:	bd80      	pop	{r7, pc}
  8009af4:	0800a378 	.word	0x0800a378
- 8009af8:	2000134c 	.word	0x2000134c
+ 8009af8:	20002c4c 	.word	0x20002c4c
 
 08009afc <dwc2_phy_init>:
 
@@ -25658,7 +25658,7 @@ bool tusb_rhport_init(uint8_t rhport, const tusb_rhport_init_t* rh_init) {
  800a05c:	bd80      	pop	{r7, pc}
  800a05e:	bf00      	nop
  800a060:	e000edf0 	.word	0xe000edf0
- 800a064:	20001360 	.word	0x20001360
+ 800a064:	20002c60 	.word	0x20002c60
 
 0800a068 <tu_bind_driver_to_ep_itf>:
   return true;
