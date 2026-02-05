@@ -1,0 +1,33 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../portable/st/stm32_fsdev/dcd_stm32_fsdev.c \
+../portable/st/stm32_fsdev/fsdev_common.c \
+../portable/st/stm32_fsdev/hcd_stm32_fsdev.c 
+
+OBJS += \
+./portable/st/stm32_fsdev/dcd_stm32_fsdev.o \
+./portable/st/stm32_fsdev/fsdev_common.o \
+./portable/st/stm32_fsdev/hcd_stm32_fsdev.o 
+
+C_DEPS += \
+./portable/st/stm32_fsdev/dcd_stm32_fsdev.d \
+./portable/st/stm32_fsdev/fsdev_common.d \
+./portable/st/stm32_fsdev/hcd_stm32_fsdev.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+portable/st/stm32_fsdev/%.o portable/st/stm32_fsdev/%.su portable/st/stm32_fsdev/%.cyclo: ../portable/st/stm32_fsdev/%.c portable/st/stm32_fsdev/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I"C:/Users/yosaha/STM32CubeIDE/workspace_1.14.1/DAC_prototype_1" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-portable-2f-st-2f-stm32_fsdev
+
+clean-portable-2f-st-2f-stm32_fsdev:
+	-$(RM) ./portable/st/stm32_fsdev/dcd_stm32_fsdev.cyclo ./portable/st/stm32_fsdev/dcd_stm32_fsdev.d ./portable/st/stm32_fsdev/dcd_stm32_fsdev.o ./portable/st/stm32_fsdev/dcd_stm32_fsdev.su ./portable/st/stm32_fsdev/fsdev_common.cyclo ./portable/st/stm32_fsdev/fsdev_common.d ./portable/st/stm32_fsdev/fsdev_common.o ./portable/st/stm32_fsdev/fsdev_common.su ./portable/st/stm32_fsdev/hcd_stm32_fsdev.cyclo ./portable/st/stm32_fsdev/hcd_stm32_fsdev.d ./portable/st/stm32_fsdev/hcd_stm32_fsdev.o ./portable/st/stm32_fsdev/hcd_stm32_fsdev.su
+
+.PHONY: clean-portable-2f-st-2f-stm32_fsdev
+
